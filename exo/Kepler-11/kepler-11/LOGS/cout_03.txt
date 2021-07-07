@@ -1,0 +1,1466 @@
+(base) stanley@Pavilion-13:~/MESA/kepler-11$ ./re x350
+x350
+DATE: 2019-08-22
+TIME: 23:29:45
+                                         version_number       11701
+ read inlist_to_wd
+ read restart_photo
+ net name basic.net
+ use_gold_tolerances T
+ rotation_flag T
+ kappa_file_prefix gs98
+ kappa_lowT_prefix lowT_fa05_gs98
+                                        OMP_NUM_THREADS           3
+
+
+__________________________________________________________________________________________________________________________________________________
+
+       step    lg_Tcntr    Teff     lg_LH       lg_Lnuc     Mass       H_rich     H_cntr     N_cntr     Y_surf     X_avg     eta_cntr  zones retry
+   lg_dt_yr    lg_Dcntr    lg_R     lg_L3a      lg_Lneu     lg_Mdot    He_core    He_cntr    O_cntr     Z_surf     Y_avg     gam_cntr  iters bckup
+     age_yr    lg_Pcntr    lg_L     lg_gsurf    lg_Psurf    lg_Dsurf   C_core     C_cntr     Ne_cntr    Z_cntr     Z_avg     v_div_cs     dt_limit
+__________________________________________________________________________________________________________________________________________________
+
+                                 WARNING: rel_run_E_err        4351    2.3933397162814170D-02
+                                 WARNING: rel_run_E_err        4352    2.4271759779644176D-02
+ retry    4353
+                                 WARNING: rel_run_E_err        4353    2.4459961853913303D-02
+                                 WARNING: rel_run_E_err        4354    2.4640565534865929D-02
+                                 WARNING: rel_run_E_err        4355    2.4813450271440270D-02
+                                 WARNING: rel_run_E_err        4356    2.4977519245248062D-02
+                                 WARNING: rel_run_E_err        4357    2.5163906515595892D-02
+                                 WARNING: rel_run_E_err        4358    2.5371848413563759D-02
+                                 WARNING: rel_run_E_err        4359    2.5552809545534079D-02
+       4360   7.325156  2.041E+04  -0.902929   3.174027   0.472874   0.008597   0.000000   0.009053   0.299857   0.012229  20.004814   1592     47
+   2.289621   5.045414  -0.286393   3.125272  -1.425495 -10.830828   0.464277   0.980683   0.004208   0.019428   0.942006   1.335322      5      1
+ 1.4183E+10  20.910631   1.619645   4.685422   3.766588  -8.656502   0.000000   0.000063   0.002033  1.932E-02  4.576E-02  0.000E+00       Lnuc_He
+                               rel_E_err   -3.5949118204583285D-05
+                       log_rel_run_E_err       -1.5897564453755555
+
+                                 WARNING: rel_run_E_err        4360    2.5718376784857385D-02
+ WARNING: do not have any output specified for profiles.
+save photos/x360 for model 4360
+                                 WARNING: rel_run_E_err        4361    2.5867821725656326D-02
+                                 WARNING: rel_run_E_err        4362    2.6005201760830290D-02
+                                 WARNING: rel_run_E_err        4363    2.6129360642074172D-02
+                                 WARNING: rel_run_E_err        4364    2.6244125448065040D-02
+                                 WARNING: rel_run_E_err        4365    2.6350631416275742D-02
+                                 WARNING: rel_run_E_err        4366    2.6448865663553905D-02
+                                 WARNING: rel_run_E_err        4367    2.6541103431688091D-02
+                                 WARNING: rel_run_E_err        4368    2.6627892698525047D-02
+                                 WARNING: rel_run_E_err        4369    2.6711432512373429D-02
+       4370   7.306080  2.024E+04  -1.044065   2.877447   0.472874   0.008597   0.000000   0.009053   0.299857   0.012229  19.984266   1600     47
+   2.244020   5.015136  -0.297251   2.828091  -1.473495 -10.878518   0.464277   0.980683   0.004208   0.019428   0.941629   1.363230      4      1
+ 1.4183E+10  20.860943   1.584205   4.707137   3.769985  -8.646649   0.000000   0.000063   0.002033  1.932E-02  4.614E-02  0.000E+00       Lnuc_He
+                               rel_E_err   -1.2646572503072419D-05
+                       log_rel_run_E_err       -1.5720866480248852
+
+                                 WARNING: rel_run_E_err        4370    2.6786338453430363D-02
+ WARNING: do not have any output specified for profiles.
+save photos/x370 for model 4370
+                                 WARNING: rel_run_E_err        4371    2.6858653850803590D-02
+                                 WARNING: rel_run_E_err        4372    2.6927427370345990D-02
+                                 WARNING: rel_run_E_err        4373    2.7005799472594991D-02
+                                 WARNING: rel_run_E_err        4374    2.7094204302017245D-02
+                                 WARNING: rel_run_E_err        4375    2.7171835427484459D-02
+                                 WARNING: rel_run_E_err        4376    2.7244005523291443D-02
+                                 WARNING: rel_run_E_err        4377    2.7311391830765672D-02
+                                 WARNING: rel_run_E_err        4378    2.7374399593850147D-02
+                                 WARNING: rel_run_E_err        4379    2.7433448307807601D-02
+       4380   7.293491  2.015E+04  -1.125467   2.600019   0.472874   0.008597   0.000000   0.009053   0.299857   0.012229  19.970197   1591     47
+   2.368387   4.995159  -0.309739   2.551928  -1.514743 -10.923807   0.464277   0.980683   0.004208   0.019428   0.941389   1.381972      4      1
+ 1.4183E+10  20.828138   1.551331   4.732112   3.778102  -8.633478   0.000000   0.000063   0.002033  1.932E-02  4.638E-02  0.000E+00       Lnuc_He
+                               rel_E_err   -1.1595798075121642D-05
+                       log_rel_run_E_err       -1.5608412360423591
+
+                                 WARNING: rel_run_E_err        4380    2.7488988775952593D-02
+ WARNING: do not have any output specified for profiles.
+save photos/x380 for model 4380
+                                 WARNING: rel_run_E_err        4381    2.7541326354621629D-02
+                                 WARNING: rel_run_E_err        4382    2.7590736016466222D-02
+                                 WARNING: rel_run_E_err        4383    2.7646789571805132D-02
+                                 WARNING: rel_run_E_err        4384    2.7709902005114369D-02
+                                 WARNING: rel_run_E_err        4385    2.7780421222904000D-02
+                                 WARNING: rel_run_E_err        4386    2.7858124285363637D-02
+                                 WARNING: rel_run_E_err        4387    2.7942362490037131D-02
+                                 WARNING: rel_run_E_err        4388    2.8032327814725207D-02
+                                 WARNING: rel_run_E_err        4389    2.8126832525247055D-02
+       4390   7.281181  2.010E+04  -1.178250   2.129060   0.472874   0.008597   0.000000   0.009053   0.299857   0.012229  19.956384   1574     47
+   3.001159   4.975641  -0.330235   2.087997  -1.572054 -10.983934   0.464277   0.980683   0.004208   0.019428   0.941157   1.400565      5      1
+ 1.4183E+10  20.796069   1.505944   4.773105   3.795975  -8.609762   0.000000   0.000063   0.002033  1.932E-02  4.661E-02  0.000E+00  max increase
+                               rel_E_err   -4.2048803688502462D-05
+                       log_rel_run_E_err       -1.5493842440374708
+
+                                 WARNING: rel_run_E_err        4390    2.8223817547027956D-02
+ WARNING: do not have any output specified for profiles.
+save photos/x390 for model 4390
+                                 WARNING: rel_run_E_err        4391    2.8321412711508169D-02
+                                 WARNING: rel_run_E_err        4392    2.8417639594884227D-02
+                                 WARNING: rel_run_E_err        4393    2.8510793180526135D-02
+                                 WARNING: rel_run_E_err        4394    2.8600828813151624D-02
+                                 WARNING: rel_run_E_err        4395    2.8689333606472394D-02
+                                 WARNING: rel_run_E_err        4396    2.8778292671520725D-02
+                                 WARNING: rel_run_E_err        4397    2.8870953793681247D-02
+                                 WARNING: rel_run_E_err        4398    2.8969827157297699D-02
+                                 WARNING: rel_run_E_err        4399    2.9078081130008867D-02
+
+__________________________________________________________________________________________________________________________________________________
+
+       step    lg_Tcntr    Teff     lg_LH       lg_Lnuc     Mass       H_rich     H_cntr     N_cntr     Y_surf     X_avg     eta_cntr  zones retry
+   lg_dt_yr    lg_Dcntr    lg_R     lg_L3a      lg_Lneu     lg_Mdot    He_core    He_cntr    O_cntr     Z_surf     Y_avg     gam_cntr  iters bckup
+     age_yr    lg_Pcntr    lg_L     lg_gsurf    lg_Psurf    lg_Dsurf   C_core     C_cntr     Ne_cntr    Z_cntr     Z_avg     v_div_cs     dt_limit
+__________________________________________________________________________________________________________________________________________________
+
+       4400   7.280468  2.039E+04  -1.064348   0.594961   0.472874   0.008597   0.000000   0.009053   0.299857   0.012229  19.960366   1534     47
+   3.792972   4.974671  -0.382289   0.550293  -1.722203 -11.108782   0.464277   0.980683   0.004208   0.019428   0.941010   1.401823      5      1
+ 1.4183E+10  20.794466   1.426247   4.877212   3.860168  -8.540481   0.000000   0.000063   0.002033  1.932E-02  4.676E-02  0.000E+00  max increase
+                               rel_E_err       -0.0002040018767828
+                       log_rel_run_E_err       -1.5346654988956945
+
+                                 WARNING: rel_run_E_err        4400    2.9196749322131021D-02
+ WARNING: do not have any output specified for profiles.
+save photos/x400 for model 4400
+ png/track1_4400.png/png
+ png/History_Panels2_4400.png/png
+                                 WARNING: rel_run_E_err        4401    2.9325735022446377D-02
+                                 WARNING: rel_run_E_err        4402    2.9462301821021601D-02
+                                 WARNING: rel_run_E_err        4403    2.9601136272522584D-02
+                                 WARNING: rel_run_E_err        4404    2.9735982834758715D-02
+                                 WARNING: rel_run_E_err        4405    2.9852433082600327D-02
+                                 WARNING: rel_run_E_err        4406    2.9932552425811110D-02
+                                 WARNING: rel_run_E_err        4407    2.9946836323169575D-02
+                                 WARNING: rel_run_E_err        4408    2.9859013882219117D-02
+                                 WARNING: rel_run_E_err        4409    2.9631676336268592D-02
+       4410   7.327730  2.113E+04  -0.861567   0.367477   0.472872   0.008595   0.000000   0.009053   0.299857   0.012227  20.044006   1503     47
+   4.584784   5.050724  -0.357920   0.307444  -1.650962 -11.021397   0.464277   0.980683   0.004208   0.019428   0.940956   1.332852      5      1
+ 1.4184E+10  20.919277   1.537360   4.828473   3.872699  -8.566355   0.000000   0.000063   0.002033  1.932E-02  4.682E-02  0.000E+00  max increase
+                               rel_E_err       -0.0002605327455741
+                       log_rel_run_E_err       -1.5339446147846973
+
+                                 WARNING: rel_run_E_err        4410    2.9245253163520970D-02
+ WARNING: do not have any output specified for profiles.
+save photos/x410 for model 4410
+                                 WARNING: rel_run_E_err        4411    2.8759683997809187D-02
+ retry    4412
+                                 WARNING: rel_run_E_err        4412    2.8471131785115789D-02
+ retry    4413
+                                 WARNING: rel_run_E_err        4413    2.8334416327594664D-02
+                                 WARNING: rel_run_E_err        4414    2.8256221609429547D-02
+ retry    4415
+                                 WARNING: rel_run_E_err        4415    2.8233455099438011D-02
+ retry    4416
+                                 WARNING: rel_run_E_err        4416    2.8230624139046943D-02
+                                 WARNING: rel_run_E_err        4417    2.8284076266440025D-02
+ retry    4418
+ retry    4418
+                                 WARNING: rel_run_E_err        4418    2.8302331500060490D-02
+                                 WARNING: rel_run_E_err        4419    2.8333675062771159D-02
+       4420   7.338753  2.231E+04  -0.580179   1.992603   0.472871   0.008594   0.000000   0.009053   0.299857   0.012225  20.074394   1572     53
+   3.174510   5.068864  -0.398855   1.972035  -1.459948 -11.016016   0.464277   0.980683   0.004208   0.019428   0.940605   1.317666      5      1
+ 1.4184E+10  20.948988   1.549877   4.910341   3.961879  -8.499149   0.000000   0.000063   0.002033  1.932E-02  4.717E-02  0.000E+00          hold
+                               rel_E_err   -2.5147244384278681D-05
+                       log_rel_run_E_err       -1.5466448940588760
+
+                                 WARNING: rel_run_E_err        4420    2.8402404349200744D-02
+ WARNING: do not have any output specified for profiles.
+save photos/x420 for model 4420
+                                 WARNING: rel_run_E_err        4421    2.8626009883330319D-02
+ retry    4422
+                                 WARNING: rel_run_E_err        4422    2.8845340301144343D-02
+ retry    4423
+                                 WARNING: rel_run_E_err        4423    2.8972094574458568D-02
+                                 WARNING: rel_run_E_err        4424    2.9110384316414394D-02
+                                 WARNING: rel_run_E_err        4425    2.9256126533213300D-02
+                                 WARNING: rel_run_E_err        4426    2.9410776540619653D-02
+                                 WARNING: rel_run_E_err        4427    2.9573373649827896D-02
+                                 WARNING: rel_run_E_err        4428    2.9744010381921902D-02
+                                 WARNING: rel_run_E_err        4429    2.9922225655335262D-02
+       4430   7.308248  2.206E+04  -0.748105   2.992193   0.472871   0.008594   0.000000   0.009053   0.299857   0.012225  20.042638   1602     55
+   2.469116   5.020451  -0.403103   2.960864  -1.430378 -11.047246   0.464277   0.980683   0.004208   0.019428   0.940047   1.361986      5      1
+ 1.4184E+10  20.869572   1.521811   4.918837   3.956283  -8.498014   0.000000   0.000063   0.002033  1.932E-02  4.773E-02  0.000E+00       Lnuc_He
+                               rel_E_err   -4.0658194764905337D-05
+                       log_rel_run_E_err       -1.5213349310752806
+
+                                 WARNING: rel_run_E_err        4430    3.0106832677204404D-02
+ WARNING: do not have any output specified for profiles.
+save photos/x430 for model 4430
+                                 WARNING: rel_run_E_err        4431    3.0338757449937945D-02
+                                 WARNING: rel_run_E_err        4432    3.0622684410307809D-02
+                                 WARNING: rel_run_E_err        4433    3.0956631896543664D-02
+                                 WARNING: rel_run_E_err        4434    3.1334053717018723D-02
+                                 WARNING: rel_run_E_err        4435    3.1742478947036065D-02
+                                 WARNING: rel_run_E_err        4436    3.2072973660954650D-02
+                                 WARNING: rel_run_E_err        4437    3.2354978785102712D-02
+                                 WARNING: rel_run_E_err        4438    3.2594488601474285D-02
+                                 WARNING: rel_run_E_err        4439    3.2800532891878967D-02
+       4440   7.259655  2.154E+04  -1.063652   2.655615   0.472871   0.008594   0.000000   0.009053   0.299857   0.012225  19.985236   1586     55
+   2.755338   4.943323  -0.414550   2.619025  -1.505251 -11.120277   0.464277   0.980683   0.004208   0.019428   0.939180   1.435677      4      1
+ 1.4184E+10  20.742839   1.457064   4.941732   3.946243  -8.493174   0.000000   0.000063   0.002033  1.932E-02  4.859E-02  0.000E+00       Lnuc_He
+                               rel_E_err   -3.4582239771133566D-05
+                       log_rel_run_E_err       -1.4817293482357268
+
+                                 WARNING: rel_run_E_err        4440    3.2981518854711865D-02
+ WARNING: do not have any output specified for profiles.
+save photos/x440 for model 4440
+                                 WARNING: rel_run_E_err        4441    3.3139465386173350D-02
+                                 WARNING: rel_run_E_err        4442    3.3278304315861679D-02
+                                 WARNING: rel_run_E_err        4443    3.3403106370412633D-02
+                                 WARNING: rel_run_E_err        4444    3.3516763000097712D-02
+                                 WARNING: rel_run_E_err        4445    3.3643530135522189D-02
+                                 WARNING: rel_run_E_err        4446    3.3783157522543697D-02
+                                 WARNING: rel_run_E_err        4447    3.3934903129420976D-02
+                                 WARNING: rel_run_E_err        4448    3.4097322762163061D-02
+                                 WARNING: rel_run_E_err        4449    3.4268277751581186D-02
+       4450   7.234594  2.127E+04  -1.203363   2.184482   0.472871   0.008594   0.000000   0.009053   0.299857   0.012225  19.953487   1571     55
+   3.183765   4.903571  -0.431340   2.148610  -1.575863 -11.189069   0.464277   0.980683   0.004208   0.019428   0.938756   1.475255      4      1
+ 1.4184E+10  20.677422   1.401579   4.975312   3.951428  -8.478035   0.000000   0.000063   0.002033  1.932E-02  4.902E-02  0.000E+00  max increase
+                               rel_E_err   -5.0539848114242334D-05
+                       log_rel_run_E_err       -1.4628615552843625
+
+                                 WARNING: rel_run_E_err        4450    3.4445972038702456D-02
+ WARNING: do not have any output specified for profiles.
+save photos/x450 for model 4450
+                                 WARNING: rel_run_E_err        4451    3.4628309045256475D-02
+                                 WARNING: rel_run_E_err        4452    3.4812220948594430D-02
+                                 WARNING: rel_run_E_err        4453    3.4993717327860309D-02
+                                 WARNING: rel_run_E_err        4454    3.5169945031548598D-02
+                                 WARNING: rel_run_E_err        4455    3.5338605941314230D-02
+                                 WARNING: rel_run_E_err        4456    3.5498230411911490D-02
+                                 WARNING: rel_run_E_err        4457    3.5650798605355152D-02
+                                 WARNING: rel_run_E_err        4458    3.5800954694309918D-02
+                                 WARNING: rel_run_E_err        4459    3.5949946242324018D-02
+       4460   7.221608  2.131E+04  -1.162042   0.804742   0.472871   0.008594   0.000000   0.009053   0.299857   0.012225  19.942843   1526     55
+   3.975578   4.883191  -0.475283   0.769338  -1.701360 -11.312993   0.464277   0.980683   0.004208   0.019428   0.938424   1.496442      5      1
+ 1.4184E+10  20.643848   1.317079   5.063198   3.996168  -8.424816   0.000000   0.000063   0.002033  1.932E-02  4.935E-02  0.000E+00  max increase
+                               rel_E_err       -0.0002527951802532
+                       log_rel_run_E_err       -1.4425116329910141
+
+                                 WARNING: rel_run_E_err        4460    3.6098434414770918D-02
+ WARNING: do not have any output specified for profiles.
+save photos/x460 for model 4460
+                                 WARNING: rel_run_E_err        4461    3.6244023512489787D-02
+                                 WARNING: rel_run_E_err        4462    3.6380453651187368D-02
+                                 WARNING: rel_run_E_err        4463    3.6499518912816740D-02
+                                 WARNING: rel_run_E_err        4464    3.6590923970907803D-02
+                                 WARNING: rel_run_E_err        4465    3.6637916659778495D-02
+                                 WARNING: rel_run_E_err        4466    3.6619316777650540D-02
+                                 WARNING: rel_run_E_err        4467    3.6507183344879263D-02
+                                 WARNING: rel_run_E_err        4468    3.6274528675987121D-02
+                                 WARNING: rel_run_E_err        4469    3.5927224999257310D-02
+       4470   7.269566  2.258E+04  -0.806868   0.967574   0.472869   0.008592   0.000000   0.009053   0.299857   0.012223  20.051889   1494     55
+   4.767390   4.960867  -0.484328   0.938883  -1.557828 -11.263764   0.464277   0.980683   0.004208   0.019428   0.938195   1.422308      5      1
+ 1.4184E+10  20.771596   1.399784   5.081286   4.055930  -8.394388   0.000000   0.000063   0.002033  1.932E-02  4.958E-02  0.000E+00  max increase
+                               rel_E_err       -0.0004327133727887
+                       log_rel_run_E_err       -1.4466066098230541
+
+                                 WARNING: rel_run_E_err        4470    3.5759660763353684D-02
+ WARNING: do not have any output specified for profiles.
+save photos/x470 for model 4470
+ retry    4471
+ retry    4471
+                                 WARNING: rel_run_E_err        4471    3.5700473727942342D-02
+ retry    4472
+                                 WARNING: rel_run_E_err        4472    3.5694423738551806D-02
+ retry    4473
+                                 WARNING: rel_run_E_err        4473    3.5701209153980923D-02
+                                 WARNING: rel_run_E_err        4474    3.5738510400578412D-02
+ retry    4475
+                                 WARNING: rel_run_E_err        4475    3.5767058177920745D-02
+                                 WARNING: rel_run_E_err        4476    3.5822995569569964D-02
+                                 WARNING: rel_run_E_err        4477    3.5932027379628181D-02
+                                 WARNING: rel_run_E_err        4478    3.6134435678328414D-02
+                                 WARNING: rel_run_E_err        4479    3.6607840725207785D-02
+ retry    4480
+       4480   7.245231  2.259E+04  -0.868554   2.406810   0.472869   0.008592   0.000000   0.009053   0.299857   0.012223  20.028031   1581     61
+   3.198754   4.922473  -0.493193   2.381545  -1.502087 -11.274235   0.464277   0.980683   0.004208   0.019428   0.937714   1.460600      6      1
+ 1.4184E+10  20.708431   1.382914   5.099016   4.064915  -8.383560   0.000000   0.000063   0.002033  1.932E-02  5.006E-02  0.000E+00         retry
+                               rel_E_err   -8.7237850158194174D-05
+                       log_rel_run_E_err       -1.4326126544546460
+
+                                 WARNING: rel_run_E_err        4480    3.6930683504392992D-02
+ WARNING: do not have any output specified for profiles.
+save photos/x480 for model 4480
+ retry    4481
+                                 WARNING: rel_run_E_err        4481    3.7094778515407961D-02
+                                 WARNING: rel_run_E_err        4482    3.7263864333329719D-02
+                                 WARNING: rel_run_E_err        4483    3.7439606014681368D-02
+                                 WARNING: rel_run_E_err        4484    3.7618568236501962D-02
+                                 WARNING: rel_run_E_err        4485    3.7834523996569822D-02
+                                 WARNING: rel_run_E_err        4486    3.8089457662303233D-02
+                                 WARNING: rel_run_E_err        4487    3.8382212363299355D-02
+                                 WARNING: rel_run_E_err        4488    3.8708637081561262D-02
+                                 WARNING: rel_run_E_err        4489    3.9060241078002045D-02
+       4490   7.201199  2.212E+04  -1.107059   2.278253   0.472869   0.008592   0.000000   0.009053   0.299857   0.012223  19.968499   1569     62
+   3.372812   4.852607  -0.500956   2.248977  -1.557554 -11.328969   0.464277   0.980683   0.004208   0.019428   0.937045   1.532056      5      1
+ 1.4184E+10  20.593359   1.330689   5.114542   4.054152  -8.380885   0.000000   0.000063   0.002033  1.932E-02  5.073E-02  0.000E+00  max increase
+                               rel_E_err   -7.9169863423375874D-05
+                       log_rel_run_E_err       -1.4041896143103885
+
+                                 WARNING: rel_run_E_err        4490    3.9428511839118018D-02
+ WARNING: do not have any output specified for profiles.
+save photos/x490 for model 4490
+                                 WARNING: rel_run_E_err        4491    3.9808459167567034D-02
+                                 WARNING: rel_run_E_err        4492    4.0187915492565271D-02
+                                 WARNING: rel_run_E_err        4493    4.0568913697716431D-02
+                                 WARNING: rel_run_E_err        4494    4.0953768258748371D-02
+                                 WARNING: rel_run_E_err        4495    4.1344533204925413D-02
+                                 WARNING: rel_run_E_err        4496    4.1752002851295905D-02
+                                 WARNING: rel_run_E_err        4497    4.2183163581723651D-02
+                                 WARNING: rel_run_E_err        4498    4.2638324882347936D-02
+ retry    4499
+                                 WARNING: rel_run_E_err        4499    4.2819044473027035D-02
+
+__________________________________________________________________________________________________________________________________________________
+
+       step    lg_Tcntr    Teff     lg_LH       lg_Lnuc     Mass       H_rich     H_cntr     N_cntr     Y_surf     X_avg     eta_cntr  zones retry
+   lg_dt_yr    lg_Dcntr    lg_R     lg_L3a      lg_Lneu     lg_Mdot    He_core    He_cntr    O_cntr     Z_surf     Y_avg     gam_cntr  iters bckup
+     age_yr    lg_Pcntr    lg_L     lg_gsurf    lg_Psurf    lg_Dsurf   C_core     C_cntr     Ne_cntr    Z_cntr     Z_avg     v_div_cs     dt_limit
+__________________________________________________________________________________________________________________________________________________
+
+       4500   7.152302  2.168E+04  -1.274372   1.413705   0.472869   0.008592   0.000000   0.009053   0.299857   0.012222  19.901953   1547     63
+   3.784413   4.775215  -0.532635   1.384560  -1.675785 -11.461460   0.464277   0.980683   0.004208   0.019428   0.936293   1.615748      5      1
+ 1.4184E+10  20.465666   1.232674   5.177899   4.066789  -8.348368   0.000000   0.000063   0.002033  1.932E-02  5.148E-02  0.000E+00          hold
+                               rel_E_err       -0.0001177685051564
+                       log_rel_run_E_err       -1.3667627842340351
+
+                                 WARNING: rel_run_E_err        4500    4.2977110772264619D-02
+ WARNING: do not have any output specified for profiles.
+save photos/x500 for model 4500
+ png/track1_4500.png/png
+ png/History_Panels2_4500.png/png
+                                 WARNING: rel_run_E_err        4501    4.3113544016866831D-02
+                                 WARNING: rel_run_E_err        4502    4.3231025242360867D-02
+                                 WARNING: rel_run_E_err        4503    4.3364862765830479D-02
+                                 WARNING: rel_run_E_err        4504    4.3512025479308859D-02
+                                 WARNING: rel_run_E_err        4505    4.3669832688131037D-02
+                                 WARNING: rel_run_E_err        4506    4.3829973277947562D-02
+ retry    4507
+                                 WARNING: rel_run_E_err        4507    4.3865698185447402D-02
+                                 WARNING: rel_run_E_err        4508    4.3888964806910027D-02
+                                 WARNING: rel_run_E_err        4509    4.3901512483256466D-02
+       4510   7.147360  2.175E+04  -1.215144   0.834126   0.472868   0.008591   0.000000   0.009053   0.299857   0.012222  19.905557   1516     64
+   3.879289   4.767749  -0.557067   0.801581  -1.717571 -11.533930   0.464277   0.980683   0.004208   0.019428   0.936075   1.624901      5      1
+ 1.4184E+10  20.453316   1.189204   5.226764   4.098235  -8.332630   0.000000   0.000063   0.002033  1.932E-02  5.170E-02  0.000E+00          hold
+                               rel_E_err   -6.2301134051165268D-05
+                       log_rel_run_E_err       -1.3574890985135784
+
+                                 WARNING: rel_run_E_err        4510    4.3904688628200204D-02
+ WARNING: do not have any output specified for profiles.
+save photos/x510 for model 4510
+                                 WARNING: rel_run_E_err        4511    4.3907321377727571D-02
+                                 WARNING: rel_run_E_err        4512    4.3908420734692637D-02
+                                 WARNING: rel_run_E_err        4513    4.3904945852737326D-02
+                                 WARNING: rel_run_E_err        4514    4.3892797180505753D-02
+                                 WARNING: rel_run_E_err        4515    4.3868521583787561D-02
+                                 WARNING: rel_run_E_err        4516    4.3827450299843973D-02
+ retry    4517
+                                 WARNING: rel_run_E_err        4517    4.3760078531396872D-02
+                                 WARNING: rel_run_E_err        4518    4.3688766668050667D-02
+                                 WARNING: rel_run_E_err        4519    4.3615882342224015D-02
+       4520   7.159486  2.209E+04  -1.113496   0.756513   0.472868   0.008591   0.000000   0.009053   0.299857   0.012221  19.945618   1507     65
+   4.132528   4.787702  -0.559727   0.724353  -1.691231 -11.523552   0.464277   0.980683   0.004208   0.019428   0.935925   1.604546      5      1
+ 1.4184E+10  20.486224   1.211188   5.232083   4.114580  -8.324045   0.000000   0.000063   0.002033  1.932E-02  5.185E-02  0.000E+00          hold
+                               rel_E_err   -4.9564431734710484D-05
+                       log_rel_run_E_err       -1.3610681005942511
+
+                                 WARNING: rel_run_E_err        4520    4.3544358754928729D-02
+ WARNING: do not have any output specified for profiles.
+save photos/x520 for model 4520
+                                 WARNING: rel_run_E_err        4521    4.3476633948511367D-02
+                                 WARNING: rel_run_E_err        4522    4.3457495418805711D-02
+ retry    4523
+                                 WARNING: rel_run_E_err        4523    4.3485723755827294D-02
+                                 WARNING: rel_run_E_err        4524    4.3696047139941178D-02
+ retry    4525
+                                 WARNING: rel_run_E_err        4525    4.3827746427805167D-02
+                                 WARNING: rel_run_E_err        4526    4.4002809823855467D-02
+                                 WARNING: rel_run_E_err        4527    4.4211766169444083D-02
+                                 WARNING: rel_run_E_err        4528    4.4441501426331034D-02
+                                 WARNING: rel_run_E_err        4529    4.4738811188983846D-02
+       4530   7.124766  2.200E+04  -1.209478   1.692152   0.472868   0.008591   0.000000   0.009053   0.299857   0.012221  19.902575   1552     67
+   3.926374   4.732987  -0.558566   1.665637  -1.656595 -11.515957   0.464277   0.980683   0.004208   0.019428   0.935381   1.666611      6      1
+ 1.4184E+10  20.395830   1.205943   5.229762   4.109657  -8.326904   0.000000   0.000063   0.002033  1.932E-02  5.240E-02  0.000E+00  max increase
+                               rel_E_err       -0.0001352040845036
+                       log_rel_run_E_err       -1.3457274347502841
+
+                                 WARNING: rel_run_E_err        4530    4.5109972801958192D-02
+ WARNING: do not have any output specified for profiles.
+save photos/x530 for model 4530
+ retry    4531
+                                 WARNING: rel_run_E_err        4531    4.5309987530445080D-02
+                                 WARNING: rel_run_E_err        4532    4.5504748305069134D-02
+                                 WARNING: rel_run_E_err        4533    4.5694298538887144D-02
+ retry    4534
+                                 WARNING: rel_run_E_err        4534    4.5776991616224019D-02
+                                 WARNING: rel_run_E_err        4535    4.5858233827775777D-02
+                                 WARNING: rel_run_E_err        4536    4.5936587848015194D-02
+                                 WARNING: rel_run_E_err        4537    4.6014600164583107D-02
+                                 WARNING: rel_run_E_err        4538    4.6106878897178939D-02
+ retry    4539
+                                 WARNING: rel_run_E_err        4539    4.6156791003588112D-02
+       4540   7.103313  2.183E+04  -1.286495   1.567236   0.472868   0.008591   0.000000   0.009053   0.299857   0.012221  19.869991   1542     70
+   3.260828   4.699027  -0.562120   1.539714  -1.681228 -11.545056   0.464277   0.980683   0.004208   0.019428   0.935095   1.705954      5      1
+ 1.4185E+10  20.339681   1.185319   5.236868   4.106295  -8.325436   0.000000   0.000063   0.002033  1.932E-02  5.268E-02  0.000E+00          hold
+                               rel_E_err   -1.3911718316870838D-05
+                       log_rel_run_E_err       -1.3353038910487658
+
+                                 WARNING: rel_run_E_err        4540    4.6205759038701069D-02
+ WARNING: do not have any output specified for profiles.
+save photos/x540 for model 4540
+                                 WARNING: rel_run_E_err        4541    4.6253928774559860D-02
+                                 WARNING: rel_run_E_err        4542    4.6302338981405698D-02
+                                 WARNING: rel_run_E_err        4543    4.6359453370236156D-02
+                                 WARNING: rel_run_E_err        4544    4.6429152544616201D-02
+ retry    4545
+                                 WARNING: rel_run_E_err        4545    4.6466164374449066D-02
+                                 WARNING: rel_run_E_err        4546    4.6503865325699840D-02
+                                 WARNING: rel_run_E_err        4547    4.6539346571837510D-02
+                                 WARNING: rel_run_E_err        4548    4.6574155026807416D-02
+                                 WARNING: rel_run_E_err        4549    4.6616461566709629D-02
+       4550   7.093636  2.176E+04  -1.316577   1.495144   0.472867   0.008591   0.000000   0.009053   0.299857   0.012221  19.855393   1540     71
+   3.355704   4.683723  -0.564636   1.467070  -1.693809 -11.558119   0.464277   0.980683   0.004208   0.019428   0.934961   1.724021      8      1
+ 1.4185E+10  20.314365   1.174553   5.241900   4.105831  -8.323631   0.000000   0.000063   0.002033  1.932E-02  5.282E-02  0.000E+00  max increase
+                               rel_E_err   -1.8125765427340796D-05
+                       log_rel_run_E_err       -1.3309820198005682
+
+                                 WARNING: rel_run_E_err        4550    4.6667870085085238D-02
+ WARNING: do not have any output specified for profiles.
+save photos/x550 for model 4550
+ retry    4551
+                                 WARNING: rel_run_E_err        4551    4.6696107025753268D-02
+                                 WARNING: rel_run_E_err        4552    4.6723303472306625D-02
+                                 WARNING: rel_run_E_err        4553    4.6750121654044838D-02
+                                 WARNING: rel_run_E_err        4554    4.6776614822708687D-02
+                                 WARNING: rel_run_E_err        4555    4.6808982908085488D-02
+ retry    4556
+                                 WARNING: rel_run_E_err        4556    4.6827888706093238D-02
+                                 WARNING: rel_run_E_err        4557    4.6845377996016895D-02
+                                 WARNING: rel_run_E_err        4558    4.6862974884359684D-02
+                                 WARNING: rel_run_E_err        4559    4.6880117661161493D-02
+       4560   7.088226  2.172E+04  -1.331783   1.456700   0.472867   0.008590   0.000000   0.009053   0.299857   0.012221  19.847290   1563     73
+   3.070369   4.675172  -0.566353   1.428354  -1.700691 -11.567094   0.464277   0.980683   0.004208   0.019428   0.934885   1.734212      6      1
+ 1.4185E+10  20.300216   1.168061   5.245335   4.105944  -8.322225   0.000000   0.000063   0.002033  1.932E-02  5.289E-02  0.000E+00  max increase
+                               rel_E_err   -5.9160459323597679D-06
+                       log_rel_run_E_err       -1.3288183286943147
+
+                                 WARNING: rel_run_E_err        4560    4.6900953420144956D-02
+ WARNING: do not have any output specified for profiles.
+save photos/x560 for model 4560
+                                 WARNING: rel_run_E_err        4561    4.6926810768964308D-02
+ retry    4562
+                                 WARNING: rel_run_E_err        4562    4.6940815633756940D-02
+                                 WARNING: rel_run_E_err        4563    4.6954789862479751D-02
+                                 WARNING: rel_run_E_err        4564    4.6968646748850047D-02
+                                 WARNING: rel_run_E_err        4565    4.6982427126724624D-02
+                                 WARNING: rel_run_E_err        4566    4.6999137582499524D-02
+                                 WARNING: rel_run_E_err        4567    4.7020038300815976D-02
+ retry    4568
+                                 WARNING: rel_run_E_err        4568    4.7031371181319684D-02
+                                 WARNING: rel_run_E_err        4569    4.7043053401859290D-02
+       4570   7.084452  2.169E+04  -1.341818   1.434149   0.472867   0.008590   0.000000   0.009053   0.299857   0.012221  19.841662   1543     75
+   2.864215   4.669208  -0.567701   1.405585  -1.705285 -11.573535   0.464277   0.980683   0.004208   0.019428   0.934831   1.741360      5      1
+ 1.4185E+10  20.290347   1.163266   5.248030   4.106183  -8.321060   0.000000   0.000063   0.002033  1.932E-02  5.295E-02  0.000E+00          hold
+                               rel_E_err   -2.7081624201100794D-06
+                       log_rel_run_E_err       -1.3274010348831542
+
+                                 WARNING: rel_run_E_err        4570    4.7054261869276845D-02
+ WARNING: do not have any output specified for profiles.
+save photos/x570 for model 4570
+                                 WARNING: rel_run_E_err        4571    4.7065413210819862D-02
+                                 WARNING: rel_run_E_err        4572    4.7078952396517111D-02
+                                 WARNING: rel_run_E_err        4573    4.7095842858554553D-02
+ retry    4574
+                                 WARNING: rel_run_E_err        4574    4.7105086504507357D-02
+                                 WARNING: rel_run_E_err        4575    4.7114309478393977D-02
+                                 WARNING: rel_run_E_err        4576    4.7123471700320226D-02
+                                 WARNING: rel_run_E_err        4577    4.7132587333833159D-02
+                                 WARNING: rel_run_E_err        4578    4.7143647241928648D-02
+                                 WARNING: rel_run_E_err        4579    4.7157075469666215D-02
+ retry    4580
+       4580   7.081637  2.167E+04  -1.349222   1.418426   0.472867   0.008590   0.000000   0.009053   0.299857   0.012221  19.837489   1518     77
+   2.737243   4.664762  -0.568809   1.389693  -1.708691 -11.578578   0.464277   0.980683   0.004208   0.019428   0.934790   1.746712      5      1
+ 1.4185E+10  20.282988   1.159454   5.250246   4.106443  -8.320075   0.000000   0.000063   0.002033  1.932E-02  5.299E-02  0.000E+00         retry
+                               rel_E_err   -2.3868132196791378D-06
+                       log_rel_run_E_err       -1.3263766031341115
+
+                                 WARNING: rel_run_E_err        4580    4.7165386415355053D-02
+ WARNING: do not have any output specified for profiles.
+save photos/x580 for model 4580
+                                 WARNING: rel_run_E_err        4581    4.7172975129900603D-02
+                                 WARNING: rel_run_E_err        4582    4.7180515607561813D-02
+                                 WARNING: rel_run_E_err        4583    4.7188364007902835D-02
+                                 WARNING: rel_run_E_err        4584    4.7197462628363406D-02
+                                 WARNING: rel_run_E_err        4585    4.7208495826467141D-02
+ retry    4586
+                                 WARNING: rel_run_E_err        4586    4.7214827330433640D-02
+                                 WARNING: rel_run_E_err        4587    4.7221143192920076D-02
+                                 WARNING: rel_run_E_err        4588    4.7227661331399433D-02
+                                 WARNING: rel_run_E_err        4589    4.7234288776687706D-02
+       4590   7.079629  2.166E+04  -1.354473   1.407833   0.472867   0.008590   0.000000   0.009053   0.299857   0.012221  19.834502   1531     78
+   2.752938   4.661590  -0.569650   1.378991  -1.711083 -11.582248   0.464277   0.980683   0.004208   0.019428   0.934760   1.750540      6      1
+ 1.4185E+10  20.277738   1.156611   5.251929   4.106668  -8.319315   0.000000   0.000063   0.002033  1.932E-02  5.302E-02  0.000E+00  max increase
+                               rel_E_err   -1.6342889207453479D-06
+                       log_rel_run_E_err       -1.3256732331224694
+
+                                 WARNING: rel_run_E_err        4590    4.7241835918312422D-02
+ WARNING: do not have any output specified for profiles.
+save photos/x590 for model 4590
+ retry    4591
+                                 WARNING: rel_run_E_err        4591    4.7246217286964584D-02
+                                 WARNING: rel_run_E_err        4592    4.7250592054823667D-02
+                                 WARNING: rel_run_E_err        4593    4.7254959302783839D-02
+                                 WARNING: rel_run_E_err        4594    4.7259319513820681D-02
+                                 WARNING: rel_run_E_err        4595    4.7264574785595974D-02
+ retry    4596
+                                 WARNING: rel_run_E_err        4596    4.7267655765617381D-02
+                                 WARNING: rel_run_E_err        4597    4.7270736065534079D-02
+                                 WARNING: rel_run_E_err        4598    4.7273809979208298D-02
+                                 WARNING: rel_run_E_err        4599    4.7276880079615086D-02
+
+__________________________________________________________________________________________________________________________________________________
+
+       step    lg_Tcntr    Teff     lg_LH       lg_Lnuc     Mass       H_rich     H_cntr     N_cntr     Y_surf     X_avg     eta_cntr  zones retry
+   lg_dt_yr    lg_Dcntr    lg_R     lg_L3a      lg_Lneu     lg_Mdot    He_core    He_cntr    O_cntr     Z_surf     Y_avg     gam_cntr  iters bckup
+     age_yr    lg_Pcntr    lg_L     lg_gsurf    lg_Psurf    lg_Dsurf   C_core     C_cntr     Ne_cntr    Z_cntr     Z_avg     v_div_cs     dt_limit
+__________________________________________________________________________________________________________________________________________________
+
+       4600   7.078555  2.165E+04  -1.357287   1.403646   0.472867   0.008590   0.000000   0.009053   0.299857   0.012221  19.832720   1551     80
+   2.467603   4.659888  -0.570117   1.374650  -1.712355 -11.584460   0.464277   0.980683   0.004208   0.019428   0.934744   1.752582      6      1
+ 1.4185E+10  20.274921   1.155047   5.252863   4.106799  -8.318891   0.000000   0.000063   0.002033  1.932E-02  5.304E-02  0.000E+00  max increase
+                               rel_E_err   -6.7853811686421843D-07
+                       log_rel_run_E_err       -1.3253171777750947
+
+                                 WARNING: rel_run_E_err        4600    4.7280582911641236D-02
+ WARNING: do not have any output specified for profiles.
+save photos/x600 for model 4600
+ png/track1_4600.png/png
+ png/History_Panels2_4600.png/png
+                                 WARNING: rel_run_E_err        4601    4.7285049446357898D-02
+ retry    4602
+                                 WARNING: rel_run_E_err        4602    4.7288126913990855D-02
+                                 WARNING: rel_run_E_err        4603    4.7290729916435695D-02
+                                 WARNING: rel_run_E_err        4604    4.7293339405107125D-02
+                                 WARNING: rel_run_E_err        4605    4.7295944578388677D-02
+                                 WARNING: rel_run_E_err        4606    4.7299163566697201D-02
+ retry    4607
+                                 WARNING: rel_run_E_err        4607    4.7301017249790391D-02
+                                 WARNING: rel_run_E_err        4608    4.7302869199614350D-02
+                                 WARNING: rel_run_E_err        4609    4.7304719289553605D-02
+       4610   7.077942  2.164E+04  -1.359175   1.400045   0.472867   0.008590   0.000000   0.009053   0.299857   0.012221  19.828008   1537     82
+   2.182268   4.658792  -0.570435   1.371050  -1.713175 -11.585934   0.464277   0.980683   0.004208   0.019428   0.934733   1.753585      6      1
+ 1.4185E+10  20.273113   1.153985   5.253499   4.106890  -8.318601   0.000000   0.000063   0.002033  1.932E-02  5.305E-02  0.000E+00          hold
+                               rel_E_err   -3.0156646741457542D-07
+                       log_rel_run_E_err       -1.3250785618886831
+
+                                 WARNING: rel_run_E_err        4610    4.7306567580029171D-02
+ WARNING: do not have any output specified for profiles.
+save photos/x610 for model 4610
+                                 WARNING: rel_run_E_err        4611    4.7308791210751433D-02
+ retry    4612
+                                 WARNING: rel_run_E_err        4612    4.7310287374927450D-02
+                                 WARNING: rel_run_E_err        4613    4.7311606466791827D-02
+                                 WARNING: rel_run_E_err        4614    4.7312919593181166D-02
+                                 WARNING: rel_run_E_err        4615    4.7314234970971834D-02
+                                 WARNING: rel_run_E_err        4616    4.7315819116747274D-02
+ retry    4617
+                                 WARNING: rel_run_E_err        4617    4.7316762816900802D-02
+                                 WARNING: rel_run_E_err        4618    4.7317706308163870D-02
+                                 WARNING: rel_run_E_err        4619    4.7318649432757709D-02
+       4620   7.080511  2.164E+04  -1.360149   1.398482   0.472867   0.008590   0.000000   0.009053   0.299857   0.012220  19.691257   1534     84
+   1.896933   4.658147  -0.570601   1.369483  -1.713599 -11.586700   0.464277   0.980683   0.004208   0.019428   0.934727   1.742376      6      1
+ 1.4185E+10  20.272294   1.153434   5.253830   4.106937  -8.318450   0.000000   0.000063   0.002033  1.932E-02  5.305E-02  0.000E+00          hold
+                               rel_E_err   -6.2449586846913392D-07
+                       log_rel_run_E_err       -1.3249548176937509
+
+                                 WARNING: rel_run_E_err        4620    4.7320048633612881D-02
+ WARNING: do not have any output specified for profiles.
+save photos/x620 for model 4620
+                                 WARNING: rel_run_E_err        4621    4.7321179413247115D-02
+ retry    4622
+                                 WARNING: rel_run_E_err        4622    4.7321854384292900D-02
+                                 WARNING: rel_run_E_err        4623    4.7322529198119807D-02
+                                 WARNING: rel_run_E_err        4624    4.7323203740239753D-02
+                                 WARNING: rel_run_E_err        4625    4.7323742346263527D-02
+                                 WARNING: rel_run_E_err        4626    4.7324172597208697D-02
+                                 WARNING: rel_run_E_err        4627    4.7324516501221395D-02
+                                 WARNING: rel_run_E_err        4628    4.7324791958346130D-02
+                                 WARNING: rel_run_E_err        4629    4.7325011821487940D-02
+       4630   7.585676  2.164E+04  -1.360542   1.397990   0.472867   0.008590   0.000000   0.009053   0.299857   0.012220   5.454361   1445     85
+   1.172805   4.596673  -0.570668   1.368970  -1.713771 -11.587034   0.464277   0.980683   0.004208   0.019428   0.934725   0.519381      4      1
+ 1.4185E+10  20.271912   1.153210   5.253964   4.106956  -8.318389   0.000000   0.000063   0.002033  1.932E-02  5.305E-02  0.000E+00      lgT_cntr
+                               rel_E_err   -2.5451329660332324D-08
+                       log_rel_run_E_err       -1.3249076557455104
+
+                                 WARNING: rel_run_E_err        4630    4.7325187604880414D-02
+ WARNING: do not have any output specified for profiles.
+save photos/x630 for model 4630
+                                 WARNING: rel_run_E_err        4631    4.7325328157742409D-02
+                                 WARNING: rel_run_E_err        4632    4.7325440549497957D-02
+                                 WARNING: rel_run_E_err        4633    4.7325530433049469D-02
+                                 WARNING: rel_run_E_err        4634    4.7325602320884445D-02
+                                 WARNING: rel_run_E_err        4635    4.7325659942483188D-02
+                                 WARNING: rel_run_E_err        4636    4.7325712456893966D-02
+                                 WARNING: rel_run_E_err        4637    4.7325763395357635D-02
+                                 WARNING: rel_run_E_err        4638    4.7325824527023212D-02
+                                 WARNING: rel_run_E_err        4639    4.7325897892062069D-02
+       4640   7.749237  2.164E+04  -1.360602   1.397935   0.472867   0.008590   0.000000   0.009053   0.299857   0.012220   3.292819   1452     85
+   0.729743   4.545818  -0.570678   1.368911  -1.713797 -11.587085   0.464277   0.980683   0.004208   0.019428   0.934724   0.342747      3      1
+ 1.4185E+10  20.271854   1.153176   5.253985   4.106959  -8.318380   0.000000   0.000063   0.002033  1.932E-02  5.306E-02  0.000E+00      lgT_cntr
+                               rel_E_err   -9.0620956099377853D-09
+                       log_rel_run_E_err       -1.3249005571259875
+
+                                 WARNING: rel_run_E_err        4640    4.7325961149698954D-02
+ WARNING: do not have any output specified for profiles.
+save photos/x640 for model 4640
+                                 WARNING: rel_run_E_err        4641    4.7326021061985447D-02
+                                 WARNING: rel_run_E_err        4642    4.7326080441208160D-02
+                                 WARNING: rel_run_E_err        4643    4.7326151701978660D-02
+                                 WARNING: rel_run_E_err        4644    4.7326237222471305D-02
+                                 WARNING: rel_run_E_err        4645    4.7326312517860208D-02
+                                 WARNING: rel_run_E_err        4646    4.7326377020451740D-02
+                                 WARNING: rel_run_E_err        4647    4.7326589761977317D-02
+                                 WARNING: rel_run_E_err        4648    4.7326694031448929D-02
+                                 WARNING: rel_run_E_err        4649    4.7326785900844416D-02
+       4650   7.856060  2.164E+04  -1.360663   1.397864   0.472867   0.008590   0.000000   0.009053   0.299857   0.012220   2.193368   1447     85
+   0.877885   4.497512  -0.570688   1.368857  -1.713818 -11.587129   0.464277   0.980683   0.004208   0.019428   0.934724   0.258255      3      1
+ 1.4185E+10  20.271803   1.153141   5.254006   4.106962  -8.318370   0.000000   0.000063   0.002033  1.932E-02  5.306E-02  0.000E+00      lgT_cntr
+                               rel_E_err   -1.2741333985353916D-08
+                       log_rel_run_E_err       -1.3248921724804932
+
+                                 WARNING: rel_run_E_err        4650    4.7326874850549358D-02
+ WARNING: do not have any output specified for profiles.
+save photos/x650 for model 4650
+                                 WARNING: rel_run_E_err        4651    4.7326981594006633D-02
+                                 WARNING: rel_run_E_err        4652    4.7327109689683261D-02
+                                 WARNING: rel_run_E_err        4653    4.7327225681163931D-02
+                                 WARNING: rel_run_E_err        4654    4.7327364873375043D-02
+                                 WARNING: rel_run_E_err        4655    4.7327531902018674D-02
+                                 WARNING: rel_run_E_err        4656    4.7327685331325427D-02
+                                 WARNING: rel_run_E_err        4657    4.7327867441417773D-02
+                                 WARNING: rel_run_E_err        4658    4.7328085958483951D-02
+                                 WARNING: rel_run_E_err        4659    4.7328348167312434D-02
+       4660   7.958479  2.164E+04  -1.360796   1.397678   0.472867   0.008590   0.000000   0.009053   0.299857   0.012220   1.297387   1406     85
+   1.320949   4.438176  -0.570711   1.368664  -1.713876 -11.587218   0.464277   0.980683   0.004208   0.019428   0.934723   0.194918      3      1
+ 1.4185E+10  20.271686   1.153066   5.254051   4.106969  -8.318350   0.000000   0.000063   0.002033  1.932E-02  5.306E-02  0.000E+00      lgT_cntr
+                               rel_E_err   -3.5334270383739963D-08
+                       log_rel_run_E_err       -1.3248763902793133
+
+                                 WARNING: rel_run_E_err        4660    4.7328594733861092D-02
+ WARNING: do not have any output specified for profiles.
+save photos/x660 for model 4660
+                                 WARNING: rel_run_E_err        4661    4.7328890541366304D-02
+                                 WARNING: rel_run_E_err        4662    4.7329245490177030D-02
+                                 WARNING: rel_run_E_err        4663    4.7329671398953999D-02
+                                 WARNING: rel_run_E_err        4664    4.7330182450770301D-02
+                                 WARNING: rel_run_E_err        4665    4.7330795840744351D-02
+                                 WARNING: rel_run_E_err        4666    4.7331531647025235D-02
+                                 WARNING: rel_run_E_err        4667    4.7332414526830839D-02
+                                 WARNING: rel_run_E_err        4668    4.7333473912327714D-02
+                                 WARNING: rel_run_E_err        4669    4.7334783300949902D-02
+       4670   8.031531  2.164E+04  -1.361389   1.397125   0.472867   0.008590   0.000000   0.009052   0.299857   0.012220   0.725384   1356     85
+   2.112762   4.387743  -0.570812   1.368083  -1.714129 -11.587584   0.464277   0.980674   0.004208   0.019428   0.934720   0.158486      3      1
+ 1.4185E+10  20.271230   1.152728   5.254254   4.106998  -8.318257   0.000000   0.000071   0.002034  1.933E-02  5.306E-02  0.000E+00  max increase
+                               rel_E_err   -2.1998821690791435D-07
+                       log_rel_run_E_err       -1.3248056092782623
+
+                                 WARNING: rel_run_E_err        4670    4.7336308942665224D-02
+ WARNING: do not have any output specified for profiles.
+save photos/x670 for model 4670
+                                 WARNING: rel_run_E_err        4671    4.7338136599780180D-02
+                                 WARNING: rel_run_E_err        4672    4.7340421286301122D-02
+                                 WARNING: rel_run_E_err        4673    4.7343050479053114D-02
+                                 WARNING: rel_run_E_err        4674    4.7346283371244441D-02
+                                 WARNING: rel_run_E_err        4675    4.7350155263677286D-02
+                                 WARNING: rel_run_E_err        4676    4.7354739107680177D-02
+                                 WARNING: rel_run_E_err        4677    4.7360152289086792D-02
+                                 WARNING: rel_run_E_err        4678    4.7366589877676772D-02
+                                 WARNING: rel_run_E_err        4679    4.7374230924657978D-02
+       4680   8.069710  2.163E+04  -1.365015   1.388404   0.472867   0.008590   0.000000   0.006465   0.299857   0.012220   0.447844   1328     85
+   2.904574   4.360353  -0.571444   1.359286  -1.715816 -11.589855   0.464277   0.942134   0.002919   0.019428   0.934699   0.148661      3      1
+ 1.4185E+10  20.269241   1.150634   5.255516   4.107185  -8.317679   0.000000   0.036882   0.007639  5.787E-02  5.308E-02  0.000E+00  max increase
+                               rel_E_err   -1.3090623243449099D-06
+                       log_rel_run_E_err       -1.3243745610082169
+
+                                 WARNING: rel_run_E_err        4680    4.7383314751260772D-02
+ WARNING: do not have any output specified for profiles.
+save photos/x680 for model 4680
+                                 WARNING: rel_run_E_err        4681    4.7394093939560039D-02
+                                 WARNING: rel_run_E_err        4682    4.7406856926648387D-02
+                                 WARNING: rel_run_E_err        4683    4.7421929534154771D-02
+                                 WARNING: rel_run_E_err        4684    4.7439674863266834D-02
+                                 WARNING: rel_run_E_err        4685    4.7460490720126425D-02
+                                 WARNING: rel_run_E_err        4686    4.7484803544501679D-02
+                                 WARNING: rel_run_E_err        4687    4.7513057665662661D-02
+                                 WARNING: rel_run_E_err        4688    4.7545698663116295D-02
+                                 WARNING: rel_run_E_err        4689    4.7583148498937002D-02
+       4690   8.068461  2.157E+04  -1.383867   1.328917   0.472867   0.008590   0.000000   0.006453   0.299857   0.012220   0.430006   1330     85
+   3.696386   4.352721  -0.575422   1.299278  -1.725584 -11.603753   0.464277   0.941743   0.002927   0.019428   0.934580   0.148286      3      1
+ 1.4185E+10  20.259739   1.138016   5.263473   4.108652  -8.313910   0.000000   0.037260   0.007657  5.826E-02  5.320E-02  0.000E+00  max increase
+                               rel_E_err   -6.9932520580454086D-06
+                       log_rel_run_E_err       -1.3221577411670167
+
+                                 WARNING: rel_run_E_err        4690    4.7625797255717660D-02
+ WARNING: do not have any output specified for profiles.
+save photos/x690 for model 4690
+                                 WARNING: rel_run_E_err        4691    4.7673894390552161D-02
+                                 WARNING: rel_run_E_err        4692    4.7727592122611413D-02
+                                 WARNING: rel_run_E_err        4693    4.7786785709811062D-02
+                                 WARNING: rel_run_E_err        4694    4.7851183717394517D-02
+                                 WARNING: rel_run_E_err        4695    4.7920099265566021D-02
+                                 WARNING: rel_run_E_err        4696    4.7992578551806268D-02
+                                 WARNING: rel_run_E_err        4697    4.8067201555976921D-02
+                                 WARNING: rel_run_E_err        4698    4.8142059825023606D-02
+                                 WARNING: rel_run_E_err        4699    4.8214478847493386D-02
+
+__________________________________________________________________________________________________________________________________________________
+
+       step    lg_Tcntr    Teff     lg_LH       lg_Lnuc     Mass       H_rich     H_cntr     N_cntr     Y_surf     X_avg     eta_cntr  zones retry
+   lg_dt_yr    lg_Dcntr    lg_R     lg_L3a      lg_Lneu     lg_Mdot    He_core    He_cntr    O_cntr     Z_surf     Y_avg     gam_cntr  iters bckup
+     age_yr    lg_Pcntr    lg_L     lg_gsurf    lg_Psurf    lg_Dsurf   C_core     C_cntr     Ne_cntr    Z_cntr     Z_avg     v_div_cs     dt_limit
+__________________________________________________________________________________________________________________________________________________
+
+       4700   8.063840  2.133E+04  -1.462646   1.135038   0.472867   0.008590   0.000000   0.006391   0.299857   0.012220   0.415079   1321     85
+   4.488199   4.340807  -0.588505   1.104119  -1.762061 -11.661772   0.464277   0.939753   0.002979   0.019428   0.934057   0.148854      3      1
+ 1.4185E+10  20.242527   1.092737   5.289638   4.111433  -8.302208   0.000000   0.039171   0.007745  6.025E-02  5.372E-02  0.000E+00  max increase
+                               rel_E_err   -3.0909685019956895D-05
+                       log_rel_run_E_err       -1.3162185738944390
+
+                                 WARNING: rel_run_E_err        4700    4.8281574696302641D-02
+ WARNING: do not have any output specified for profiles.
+save photos/x700 for model 4700
+ png/track1_4700.png/png
+ png/History_Panels2_4700.png/png
+                                 WARNING: rel_run_E_err        4701    4.8340625054949037D-02
+                                 WARNING: rel_run_E_err        4702    4.8388778612038226D-02
+                                 WARNING: rel_run_E_err        4703    4.8425426720793113D-02
+                                 WARNING: rel_run_E_err        4704    4.8454871981325365D-02
+                                 WARNING: rel_run_E_err        4705    4.8487164350411630D-02
+                                 WARNING: rel_run_E_err        4706    4.8537264698893301D-02
+                                 WARNING: rel_run_E_err        4707    4.8618688067475394D-02
+                                 WARNING: rel_run_E_err        4708    4.8737910243365101D-02
+                                 WARNING: rel_run_E_err        4709    4.8894897554052796D-02
+       4710   8.063755  2.133E+04  -1.596602   1.135657   0.472865   0.008588   0.000000   0.006036   0.299857   0.012216   0.453269   1302     85
+   5.280011   4.352897  -0.568885   1.103585  -1.767895 -11.606534   0.464277   0.927509   0.003390   0.019428   0.931398   0.152454      4      1
+ 1.4186E+10  20.254692   1.131576   5.250396   4.092295  -8.325700   0.000000   0.050852   0.008253  7.249E-02  5.639E-02  0.000E+00  max increase
+                               rel_E_err       -0.0001802960852844
+                       log_rel_run_E_err       -1.3090295111352188
+
+                                 WARNING: rel_run_E_err        4710    4.9087451916302580D-02
+ WARNING: do not have any output specified for profiles.
+save photos/x710 for model 4710
+                                 WARNING: rel_run_E_err        4711    4.9317008372174051D-02
+                                 WARNING: rel_run_E_err        4712    4.9593233252837224D-02
+                                 WARNING: rel_run_E_err        4713    4.9925582287701505D-02
+                                 WARNING: rel_run_E_err        4714    5.0327282851847663D-02
+                                 WARNING: rel_run_E_err        4715    5.0809255059569833D-02
+                                 WARNING: rel_run_E_err        4716    5.1398936405947372D-02
+                                 WARNING: rel_run_E_err        4717    5.2116361909975033D-02
+                                 WARNING: rel_run_E_err        4718    5.2982907552248347D-02
+                                 WARNING: rel_run_E_err        4719    5.4052622991918813D-02
+       4720   8.066877  2.120E+04  -1.838839   1.148126   0.472850   0.008573   0.000000   0.004111   0.299857   0.012194   0.442806   1262     85
+   6.052899   4.354373  -0.557405   1.103091  -1.757928 -11.587771   0.464277   0.853191   0.008380   0.019428   0.914521   0.165906      5      1
+ 1.4192E+10  20.251939   1.144414   5.227422   4.075898  -8.341429   0.000000   0.119355   0.011003  1.468E-01  7.328E-02  0.000E+00      XHe_cntr
+                               rel_E_err       -0.0011950791172903
+                       log_rel_run_E_err       -1.2571870743802225
+
+                                 WARNING: rel_run_E_err        4720    5.5311180239653993D-02
+ WARNING: do not have any output specified for profiles.
+save photos/x720 for model 4720
+                                 WARNING: rel_run_E_err        4721    5.6384646017485676D-02
+                                 WARNING: rel_run_E_err        4722    5.7256539724204226D-02
+                                 WARNING: rel_run_E_err        4723    5.8060979100904749D-02
+                                 WARNING: rel_run_E_err        4724    5.8865120741289474D-02
+                                 WARNING: rel_run_E_err        4725    5.9674111446815399D-02
+                                 WARNING: rel_run_E_err        4726    6.0491189508402328D-02
+                                 WARNING: rel_run_E_err        4727    6.1318688886742787D-02
+                                 WARNING: rel_run_E_err        4728    6.2158278828205432D-02
+                                 WARNING: rel_run_E_err        4729    6.3011171477983408D-02
+       4730   8.071656  2.105E+04  -1.972365   1.166836   0.472828   0.008551   0.000000   0.002071   0.299857   0.012161   0.432980   1306     85
+   5.890391   4.358603  -0.541575   1.102705  -1.733441 -11.551085   0.464277   0.749026   0.022263   0.019428   0.890848   0.188773      5      1
+ 1.4200E+10  20.250954   1.163513   5.195741   4.053894  -8.362779   0.000000   0.208763   0.013916  2.510E-01  9.699E-02  0.000E+00      XHe_cntr
+                               rel_E_err       -0.0008246387406429
+                       log_rel_run_E_err       -1.1946467843083046
+
+                                 WARNING: rel_run_E_err        4730    6.3878280290105255D-02
+ WARNING: do not have any output specified for profiles.
+save photos/x730 for model 4730
+                                 WARNING: rel_run_E_err        4731    6.4760331878515917D-02
+                                 WARNING: rel_run_E_err        4732    6.5657945296839923D-02
+                                 WARNING: rel_run_E_err        4733    6.6571680788034507D-02
+                                 WARNING: rel_run_E_err        4734    6.7502064520561816D-02
+                                 WARNING: rel_run_E_err        4735    6.8312567904701096D-02
+                                 WARNING: rel_run_E_err        4736    6.9120925657878862D-02
+                                 WARNING: rel_run_E_err        4737    6.9944429092396232D-02
+                                 WARNING: rel_run_E_err        4738    7.0783533265948509D-02
+                                 WARNING: rel_run_E_err        4739    7.1638617072630778D-02
+       4740   8.076870  2.091E+04  -2.056650   1.185448   0.472805   0.008528   0.000000   0.000843   0.299857   0.012128   0.425856   1305     85
+   5.883170   4.364368  -0.526078   1.100824  -1.703500 -11.516560   0.464277   0.648640   0.043690   0.019428   0.868105   0.216521      5      1
+ 1.4207E+10  20.251891   1.182434   5.164728   4.032343  -8.383592   0.000000   0.287196   0.015671  3.514E-01  1.198E-01  0.000E+00      XHe_cntr
+                               rel_E_err       -0.0008332148680213
+                       log_rel_run_E_err       -1.1396012626391916
+
+                                 WARNING: rel_run_E_err        4740    7.2510138950207970D-02
+ WARNING: do not have any output specified for profiles.
+save photos/x740 for model 4740
+                                 WARNING: rel_run_E_err        4741    7.3398588636639700D-02
+                                 WARNING: rel_run_E_err        4742    7.4304478186982284D-02
+                                 WARNING: rel_run_E_err        4743    7.5228338986071966D-02
+                                 WARNING: rel_run_E_err        4744    7.6170726837260866D-02
+                                 WARNING: rel_run_E_err        4745    7.7077874740463112D-02
+                                 WARNING: rel_run_E_err        4746    7.7911456388851066D-02
+                                 WARNING: rel_run_E_err        4747    7.8761141088828909D-02
+                                 WARNING: rel_run_E_err        4748    7.9628632929867271D-02
+                                 WARNING: rel_run_E_err        4749    8.0514354089457424D-02
+       4750   8.082826  2.077E+04  -2.124533   1.204443   0.472781   0.008504   0.000000   0.000239   0.299857   0.012092   0.422169   1288     85
+   5.878277   4.372381  -0.510806   1.095295  -1.666911 -11.482070   0.464277   0.548375   0.073883   0.019428   0.845389   0.252139      5      1
+ 1.4215E+10  20.255549   1.201657   5.134161   4.011293  -8.403937   0.000000   0.357009   0.016534  4.516E-01  1.425E-01  0.000E+00      XHe_cntr
+                               rel_E_err       -0.0008720725976825
+                       log_rel_run_E_err       -1.0892750279354151
+
+                                 WARNING: rel_run_E_err        4750    8.1418851531169303D-02
+ WARNING: do not have any output specified for profiles.
+save photos/x750 for model 4750
+                                 WARNING: rel_run_E_err        4751    8.2342733016394859D-02
+                                 WARNING: rel_run_E_err        4752    8.3286641123979710D-02
+                                 WARNING: rel_run_E_err        4753    8.4251245844817760D-02
+                                 WARNING: rel_run_E_err        4754    8.5105090881002002D-02
+                                 WARNING: rel_run_E_err        4755    8.5912868558391392D-02
+                                 WARNING: rel_run_E_err        4756    8.6905505036346350D-02
+                                 WARNING: rel_run_E_err        4757    8.8117220005516722D-02
+                                 WARNING: rel_run_E_err        4758    8.9163964357721739D-02
+                                 WARNING: rel_run_E_err        4759    9.0148123672562433D-02
+       4760   8.090466  2.066E+04  -2.181668   1.224854   0.472752   0.008476   0.000000   0.000030   0.299857   0.012051   0.425102   1280     85
+   5.896220   4.385121  -0.495684   1.081198  -1.616667 -11.446137   0.464277   0.438836   0.118702   0.019428   0.820571   0.304553      5      1
+ 1.4223E+10  20.264767   1.222510   5.103890   3.991324  -8.423623   0.000000   0.421639   0.016831  5.612E-01  1.674E-01  0.000E+00      XHe_cntr
+                               rel_E_err       -0.0009530583923574
+                       log_rel_run_E_err       -1.0404162259481475
+
+                                 WARNING: rel_run_E_err        4760    9.1113719083973255D-02
+ WARNING: do not have any output specified for profiles.
+save photos/x760 for model 4760
+                                 WARNING: rel_run_E_err        4761    9.2081692427398845D-02
+                                 WARNING: rel_run_E_err        4762    9.3062689935067444D-02
+                                 WARNING: rel_run_E_err        4763    9.4062468854923711D-02
+                                 WARNING: rel_run_E_err        4764    9.5084401017574038D-02
+                                 WARNING: rel_run_E_err        4765    9.6130675780581126D-02
+                                 WARNING: rel_run_E_err        4766    9.7159884071216049D-02
+                                 WARNING: rel_run_E_err        4767    9.8166151610914937D-02
+                                 WARNING: rel_run_E_err        4768    9.9375536544877269D-02
+                                 WARNING: rel_run_E_err        4769    1.0043162824586604D-01
+       4770   8.100039  2.058E+04  -2.227108   1.246428   0.472721   0.008445   0.000000   0.000001   0.299857   0.012006   0.436438   1285     85
+   5.916719   4.403549  -0.481237   1.056125  -1.550517 -11.409208   0.464277   0.329953   0.178629   0.019428   0.795902   0.378588      5      1
+ 1.4232E+10  20.280875   1.244831   5.074968   3.973463  -8.441825   0.000000   0.470583   0.016873  6.700E-01  1.921E-01  0.000E+00      XHe_cntr
+                               rel_E_err       -0.0010403415561681
+                       log_rel_run_E_err       -0.9938267488232165
+
+                                 WARNING: rel_run_E_err        4770    1.0143159416097439D-01
+ WARNING: do not have any output specified for profiles.
+save photos/x770 for model 4770
+                                 WARNING: rel_run_E_err        4771    1.0241765065217445D-01
+                                 WARNING: rel_run_E_err        4772    1.0341010695778183D-01
+                                 WARNING: rel_run_E_err        4773    1.0441941287500539D-01
+                                 WARNING: rel_run_E_err        4774    1.0545132656743783D-01
+                                 WARNING: rel_run_E_err        4775    1.0664079984366363D-01
+                                 WARNING: rel_run_E_err        4776    1.0782940732621067D-01
+                                 WARNING: rel_run_E_err        4777    1.0886629914027714D-01
+                                 WARNING: rel_run_E_err        4778    1.0984987032892882D-01
+                                 WARNING: rel_run_E_err        4779    1.1082082437185153D-01
+       4780   8.113107  2.061E+04  -2.241615   1.268715   0.472687   0.008410   0.000000   0.000000   0.299857   0.011956   0.466421   1292     85
+   5.902519   4.433330  -0.470999   1.006659  -1.454776 -11.375240   0.464277   0.220688   0.260908   0.019428   0.771146   0.491664      5      1
+ 1.4240E+10  20.311635   1.268124   5.054460   3.964769  -8.452942   0.000000   0.497568   0.016875  7.793E-01  2.169E-01  0.000E+00      XHe_cntr
+                               rel_E_err       -0.0011187631521162
+                       log_rel_run_E_err       -0.9515619578468583
+
+                                 WARNING: rel_run_E_err        4780    1.1179903171140679D-01
+ WARNING: do not have any output specified for profiles.
+save photos/x780 for model 4780
+                                 WARNING: rel_run_E_err        4781    1.1279442227647665D-01
+                                 WARNING: rel_run_E_err        4782    1.1386826885240538D-01
+                                 WARNING: rel_run_E_err        4783    1.1501594616682186D-01
+                                 WARNING: rel_run_E_err        4784    1.1601120503507036D-01
+                                 WARNING: rel_run_E_err        4785    1.1693950402313143D-01
+                                 WARNING: rel_run_E_err        4786    1.1782631622700138D-01
+                                 WARNING: rel_run_E_err        4787    1.1859988837608103D-01
+                                 WARNING: rel_run_E_err        4788    1.1915766437938095D-01
+                                 WARNING: rel_run_E_err        4789    1.1969066327136176D-01
+       4790   8.132229  2.093E+04  -2.178234   1.288035   0.472650   0.008373   0.000000   0.000000   0.299857   0.011903   0.536697   1283     85
+   5.848421   4.485173  -0.472970   0.891516  -1.306501 -11.352064   0.464277   0.118553   0.373101   0.019428   0.748005   0.667736      5      1
+ 1.4248E+10  20.372252   1.290853   5.058370   3.980907  -8.444502   0.000000   0.487510   0.016875  8.814E-01  2.401E-01  0.000E+00       XO_cntr
+                               rel_E_err       -0.0009160448754994
+                       log_rel_run_E_err       -0.9200902426310973
+
+                                 WARNING: rel_run_E_err        4790    1.2020146404364075D-01
+ WARNING: do not have any output specified for profiles.
+save photos/x790 for model 4790
+                                 WARNING: rel_run_E_err        4791    1.2068923841743356D-01
+                                 WARNING: rel_run_E_err        4792    1.2115238423845195D-01
+                                 WARNING: rel_run_E_err        4793    1.2158953834859890D-01
+                                 WARNING: rel_run_E_err        4794    1.2199831928963065D-01
+                                 WARNING: rel_run_E_err        4795    1.2237713180660184D-01
+                                 WARNING: rel_run_E_err        4796    1.2272319897379692D-01
+                                 WARNING: rel_run_E_err        4797    1.2303481281197443D-01
+                                 WARNING: rel_run_E_err        4798    1.2330872819818064D-01
+                                 WARNING: rel_run_E_err        4799    1.2344811770305972D-01
+
+__________________________________________________________________________________________________________________________________________________
+
+       step    lg_Tcntr    Teff     lg_LH       lg_Lnuc     Mass       H_rich     H_cntr     N_cntr     Y_surf     X_avg     eta_cntr  zones retry
+   lg_dt_yr    lg_Dcntr    lg_R     lg_L3a      lg_Lneu     lg_Mdot    He_core    He_cntr    O_cntr     Z_surf     Y_avg     gam_cntr  iters bckup
+     age_yr    lg_Pcntr    lg_L     lg_gsurf    lg_Psurf    lg_Dsurf   C_core     C_cntr     Ne_cntr    Z_cntr     Z_avg     v_div_cs     dt_limit
+__________________________________________________________________________________________________________________________________________________
+
+       4800   8.154107  2.157E+04  -2.024873   1.297684   0.472623   0.008346   0.000000   0.000000   0.299857   0.011864   0.643290   1292     85
+   5.728484   4.552275  -0.491349   0.676951  -1.132112 -11.352825   0.464277   0.055080   0.480042   0.019428   0.733619   0.851910      5      1
+ 1.4255E+10  20.456195   1.306306   5.095102   4.026312  -8.411896   0.000000   0.444042   0.016875  9.449E-01  2.545E-01  0.000E+00       XO_cntr
+                               rel_E_err       -0.0006473709220084
+                       log_rel_run_E_err       -0.9086176366753211
+
+                                 WARNING: rel_run_E_err        4800    1.2341909664902306D-01
+ WARNING: do not have any output specified for profiles.
+save photos/x800 for model 4800
+ png/track1_4800.png/png
+ png/History_Panels2_4800.png/png
+                                 WARNING: rel_run_E_err        4801    1.2334333876554983D-01
+                                 WARNING: rel_run_E_err        4802    1.2322133136649084D-01
+                                 WARNING: rel_run_E_err        4803    1.2304876236482490D-01
+                                 WARNING: rel_run_E_err        4804    1.2281969888948749D-01
+                                 WARNING: rel_run_E_err        4805    1.2252779016760504D-01
+                                 WARNING: rel_run_E_err        4806    1.2216526506756505D-01
+                                 WARNING: rel_run_E_err        4807    1.2172121323516517D-01
+                                 WARNING: rel_run_E_err        4808    1.2118306497648422D-01
+                                 WARNING: rel_run_E_err        4809    1.2053310588374747D-01
+       4810   8.184697  2.288E+04  -1.677304   1.289639   0.472603   0.008330   0.000000   0.000000   0.299857   0.011834   0.837936   1334     85
+   5.640404   4.658672  -0.537908   0.202788  -0.885870 -11.385872   0.464273   0.015595   0.584774   0.019428   0.724572   1.040640      5      1
+ 1.4259E+10  20.595509   1.315492   5.188201   4.123078  -8.338005   0.000000   0.378795   0.016876  9.844E-01  2.636E-01  0.000E+00       XO_cntr
+                               rel_E_err       -0.0005133587498245
+                       log_rel_run_E_err       -0.9217294185737102
+
+                                 WARNING: rel_run_E_err        4810    1.1974863769692788D-01
+ WARNING: do not have any output specified for profiles.
+save photos/x810 for model 4810
+                                 WARNING: rel_run_E_err        4811    1.1880053922752683D-01
+                                 WARNING: rel_run_E_err        4812    1.1765258640855888D-01
+                                 WARNING: rel_run_E_err        4813    1.1588797218458882D-01
+                                 WARNING: rel_run_E_err        4814    1.1364248512924915D-01
+                                 WARNING: rel_run_E_err        4815    1.1188911631993906D-01
+                                 WARNING: rel_run_E_err        4816    1.1331087686602648D-01
+                                 WARNING: rel_run_E_err        4817    1.1618284966364772D-01
+                                 WARNING: rel_run_E_err        4818    1.1740183071159817D-01
+                                 WARNING: rel_run_E_err        4819    1.1811537158931376D-01
+       4820   8.100215  2.351E+04  -1.613358   1.413534   0.472583   0.008310   0.000000   0.000000   0.299857   0.011802   2.386192   1348     85
+   5.489397   4.916153  -0.513255   1.348404  -0.947235 -11.285157   0.464273   0.000778   0.640156   0.019428   0.708251   1.676668      5      1
+ 1.4264E+10  20.851687   1.411835   5.138877   4.121322  -8.358061   0.107253   0.338229   0.016876  9.992E-01  2.799E-01  0.000E+00      lgT_cntr
+                               rel_E_err       -0.0005529341712290
+                       log_rel_run_E_err       -0.9259298599125876
+
+                                 WARNING: rel_run_E_err        4820    1.1859602694588008D-01
+ WARNING: do not have any output specified for profiles.
+save photos/x820 for model 4820
+                                 WARNING: rel_run_E_err        4821    1.1908066163577724D-01
+                                 WARNING: rel_run_E_err        4822    1.1960575053514254D-01
+                                 WARNING: rel_run_E_err        4823    1.2017444470864908D-01
+                                 WARNING: rel_run_E_err        4824    1.2082222505625187D-01
+                                 WARNING: rel_run_E_err        4825    1.2159772961244604D-01
+                                 WARNING: rel_run_E_err        4826    1.2250484258576978D-01
+                                 WARNING: rel_run_E_err        4827    1.2360909695536040D-01
+                                 WARNING: rel_run_E_err        4828    1.2494457735459609D-01
+                                 WARNING: rel_run_E_err        4829    1.2657933560433049D-01
+       4830   8.085019  2.399E+04  -1.507791   1.471630   0.472529   0.008256   0.000000   0.000000   0.299857   0.011721   2.959979   1391     85
+   6.257030   5.005722  -0.500316   1.302966  -0.812255 -11.206559   0.464273   0.000291   0.642103   0.019428   0.661334   1.865391      5      1
+ 1.4273E+10  20.962130   1.472846   5.112950   4.124990  -8.367000   0.107253   0.336769   0.016876  9.997E-01  3.269E-01  0.000E+00  max increase
+                               rel_E_err       -0.0032276628979287
+                       log_rel_run_E_err       -0.8908422020698680
+
+                                 WARNING: rel_run_E_err        4830    1.2857537449131629D-01
+ WARNING: do not have any output specified for profiles.
+save photos/x830 for model 4830
+                                 WARNING: rel_run_E_err        4831    1.3091775493995503D-01
+                                 WARNING: rel_run_E_err        4832    1.3299594123477823D-01
+                                 WARNING: rel_run_E_err        4833    1.3485098279642777D-01
+                                 WARNING: rel_run_E_err        4834    1.3650276649813983D-01
+                                 WARNING: rel_run_E_err        4835    1.3797054306185447D-01
+                                 WARNING: rel_run_E_err        4836    1.3930132796571376D-01
+                                 WARNING: rel_run_E_err        4837    1.4052296868993050D-01
+                                 WARNING: rel_run_E_err        4838    1.4166301417341640D-01
+                                 WARNING: rel_run_E_err        4839    1.4273620348038624D-01
+       4840   8.098236  2.465E+04  -1.294771   1.562472   0.472482   0.008209   0.000000   0.000000   0.299858   0.011644   3.432967   1446     85
+   5.933786   5.110017  -0.479011   1.339427  -0.593592 -14.584690   0.464273   0.000016   0.643205   0.019428   0.588942   1.963530      5      1
+ 1.4287E+10  21.109683   1.562848   5.070297   4.125842  -8.383667   0.107253   0.335943   0.016876  1.000E+00  3.994E-01  0.000E+00   lg_XHe_cntr
+                               rel_E_err       -0.0017658980392190
+                       log_rel_run_E_err       -0.8423838655059339
+
+                                 WARNING: rel_run_E_err        4840    1.4375274105285993D-01
+ WARNING: do not have any output specified for profiles.
+save photos/x840 for model 4840
+                                 WARNING: rel_run_E_err        4841    1.4471910491363477D-01
+                                 WARNING: rel_run_E_err        4842    1.4564534188703770D-01
+                                 WARNING: rel_run_E_err        4843    1.4653339767552734D-01
+                                 WARNING: rel_run_E_err        4844    1.4738722453098396D-01
+                                 WARNING: rel_run_E_err        4845    1.4820862325025277D-01
+                                 WARNING: rel_run_E_err        4846    1.4900058014631640D-01
+                                 WARNING: rel_run_E_err        4847    1.4976224766733545D-01
+                                 WARNING: rel_run_E_err        4848    1.5049787622083430D-01
+                                 WARNING: rel_run_E_err        4849    1.5120820644548577D-01
+       4850   8.102303  2.486E+04  -1.168673   1.625009   0.472482   0.008209   0.000000   0.000000   0.299858   0.011635   3.777085   1477     85
+   5.755784   5.172449  -0.455095   1.396286  -0.478421 -14.324691   0.464273   0.000001   0.643263   0.019428   0.545895   2.040889      5      1
+ 1.4293E+10  21.197752   1.625284   5.022464   4.108797  -8.408615   0.109621   0.335899   0.016876  1.000E+00  4.425E-01  0.000E+00   lg_XHe_cntr
+                               rel_E_err       -0.0013049401707012
+                       log_rel_run_E_err       -0.8184534057975100
+
+                                 WARNING: rel_run_E_err        4850    1.5189608982243050D-01
+ WARNING: do not have any output specified for profiles.
+save photos/x850 for model 4850
+                                 WARNING: rel_run_E_err        4851    1.5256065804573546D-01
+                                 WARNING: rel_run_E_err        4852    1.5336816155385052D-01
+                                 WARNING: rel_run_E_err        4853    1.5434379964454306D-01
+                                 WARNING: rel_run_E_err        4854    1.5552127873267685D-01
+                                 WARNING: rel_run_E_err        4855    1.5693748166001598D-01
+                                 WARNING: rel_run_E_err        4856    1.5863162514680346D-01
+                                 WARNING: rel_run_E_err        4857    1.6065344092967310D-01
+                                 WARNING: rel_run_E_err        4858    1.6304807467418211D-01
+                                 WARNING: rel_run_E_err        4859    1.6584684929957200D-01
+       4860   8.109082  2.531E+04  -0.657226   1.797397   0.472482   0.008209   0.000000   0.000000   0.299858   0.011596   4.862790   1526     85
+   6.454409   5.338336  -0.384347   1.548381  -0.165962 -13.757852   0.464273   0.000000   0.643268   0.019428   0.426752   2.282123      6      1
+ 1.4308E+10  21.435690   1.797915   4.880968   4.050145  -8.478818   0.180562   0.335895   0.016876  1.000E+00  5.617E-01  0.000E+00        dHe/He
+                               rel_E_err       -0.0085627163871947
+                       log_rel_run_E_err       -0.7720436859223817
+
+                                 WARNING: rel_run_E_err        4860    1.6902708978060799D-01
+ WARNING: do not have any output specified for profiles.
+save photos/x860 for model 4860
+                                 WARNING: rel_run_E_err        4861    1.7116466687833104D-01
+                                 WARNING: rel_run_E_err        4862    1.7267989559316033D-01
+                                 WARNING: rel_run_E_err        4863    1.7368982922836831D-01
+                                 WARNING: rel_run_E_err        4864    1.7425296865451606D-01
+                                 WARNING: rel_run_E_err        4865    1.7446870621941996D-01
+                                 WARNING: rel_run_E_err        4866    1.7432131933781997D-01
+                                 WARNING: rel_run_E_err        4867    1.7381880375934719D-01
+                                 WARNING: rel_run_E_err        4868    1.7304750975929575D-01
+                                 WARNING: rel_run_E_err        4869    1.7204972402526372D-01
+       4870   8.060711  2.567E+04   1.229696   2.176721   0.472480   0.008126   0.000000   0.000000   0.299858   0.010837   8.964286   1610     85
+   5.846055   5.665532  -0.204575   1.907124   0.515866 -12.164732   0.464353   0.000000   0.643268   0.019428   0.232382   3.279258      9      1
+ 1.4321E+10  21.914146   2.182246   4.521423   3.878846  -8.681334   0.297750   0.335895   0.016876  1.000E+00  7.568E-01  0.000E+00        dHe/He
+                               rel_E_err       -0.0037329571793220
+                       log_rel_run_E_err       -0.7673424661895436
+
+                                 WARNING: rel_run_E_err        4870    1.7086674011388062D-01
+ WARNING: do not have any output specified for profiles.
+save photos/x870 for model 4870
+                                 WARNING: rel_run_E_err        4871    1.6960059389366519D-01
+                                 WARNING: rel_run_E_err        4872    1.6837967410846494D-01
+                                 WARNING: rel_run_E_err        4873    1.6726440286029634D-01
+                                 WARNING: rel_run_E_err        4874    1.6627459717980000D-01
+                                 WARNING: rel_run_E_err        4875    1.6541213993627121D-01
+                                 WARNING: rel_run_E_err        4876    1.6467401813960134D-01
+                                 WARNING: rel_run_E_err        4877    1.6405065984776962D-01
+                                 WARNING: rel_run_E_err        4878    1.6352969537172010D-01
+                                 WARNING: rel_run_E_err        4879    1.6309835513246446D-01
+       4880   8.023482  2.966E+04   1.922401   2.387339   0.472473   0.006305   0.000000   0.000000   0.299858   0.008068  11.759192   1781     85
+   4.891919   5.793253  -0.223405   2.017485   0.944158 -11.237085   0.466168   0.000000   0.643268   0.019428   0.171161   3.940747      7      1
+ 1.4323E+10  22.106203   2.395252   4.559076   3.993846  -8.652591   0.340162   0.335895   0.016876  1.000E+00  8.208E-01  0.000E+00          dH/H
+                               rel_E_err       -0.0004708413753617
+                       log_rel_run_E_err       -0.7884978841374228
+
+                                 WARNING: rel_run_E_err        4880    1.6274292443827329D-01
+ WARNING: do not have any output specified for profiles.
+save photos/x880 for model 4880
+                                 WARNING: rel_run_E_err        4881    1.6245302878360349D-01
+                                 WARNING: rel_run_E_err        4882    1.6221660911172350D-01
+                                 WARNING: rel_run_E_err        4883    1.6201880774550054D-01
+                                 WARNING: rel_run_E_err        4884    1.6183957447710273D-01
+                                 WARNING: rel_run_E_err        4885    1.6166898435807361D-01
+                                 WARNING: rel_run_E_err        4886    1.6150262406139185D-01
+                                 WARNING: rel_run_E_err        4887    1.6133863326569783D-01
+                                 WARNING: rel_run_E_err        4888    1.6117581918393664D-01
+                                 WARNING: rel_run_E_err        4889    1.6101396908455246D-01
+       4890   8.016134  3.173E+04   1.997726   2.419792   0.472470   0.005664   0.000000   0.000000   0.299858   0.007291  12.362303   1796     85
+   4.515874   5.816373  -0.265659   2.031992   1.002673 -11.149278   0.466807   0.000000   0.643268   0.019428   0.161084   4.079739      5      1
+ 1.4324E+10  22.141243   2.427796   4.643581   4.069195  -8.613253   0.346967   0.335895   0.016876  1.000E+00  8.316E-01  0.000E+00          dH/H
+                               rel_E_err       -0.0001992664540400
+                       log_rel_run_E_err       -0.7935687438429950
+
+                                 WARNING: rel_run_E_err        4890    1.6085377446323781D-01
+ WARNING: do not have any output specified for profiles.
+save photos/x890 for model 4890
+                                 WARNING: rel_run_E_err        4891    1.6069570802464569D-01
+                                 WARNING: rel_run_E_err        4892    1.6053897960700306D-01
+                                 WARNING: rel_run_E_err        4893    1.6038362700796288D-01
+                                 WARNING: rel_run_E_err        4894    1.6023005607835095D-01
+                                 WARNING: rel_run_E_err        4895    1.6007898437436052D-01
+                                 WARNING: rel_run_E_err        4896    1.5992953737442736D-01
+                                 WARNING: rel_run_E_err        4897    1.5978184773006956D-01
+                                 WARNING: rel_run_E_err        4898    1.5963638939803948D-01
+                                 WARNING: rel_run_E_err        4899    1.5949263126818150D-01
+
+__________________________________________________________________________________________________________________________________________________
+
+       step    lg_Tcntr    Teff     lg_LH       lg_Lnuc     Mass       H_rich     H_cntr     N_cntr     Y_surf     X_avg     eta_cntr  zones retry
+   lg_dt_yr    lg_Dcntr    lg_R     lg_L3a      lg_Lneu     lg_Mdot    He_core    He_cntr    O_cntr     Z_surf     Y_avg     gam_cntr  iters bckup
+     age_yr    lg_Pcntr    lg_L     lg_gsurf    lg_Psurf    lg_Dsurf   C_core     C_cntr     Ne_cntr    Z_cntr     Z_avg     v_div_cs     dt_limit
+__________________________________________________________________________________________________________________________________________________
+
+       4900   8.010010  3.385E+04   2.060089   2.445856   0.472468   0.005139   0.000000   0.000000   0.299858   0.006598  12.864070   1781     85
+   4.441443   5.834378  -0.309019   2.035743   1.051230 -11.092532   0.467329   0.000000   0.643268   0.019428   0.153388   4.195253      5      1
+ 1.4324E+10  22.168556   2.453931   4.730301   4.140330  -8.577847   0.352528   0.335895   0.016876  1.000E+00  8.400E-01  0.000E+00          dH/H
+                               rel_E_err       -0.0001681527086988
+                       log_rel_run_E_err       -0.7976475813320935
+
+                                 WARNING: rel_run_E_err        4900    1.5935012873585072D-01
+ WARNING: do not have any output specified for profiles.
+save photos/x900 for model 4900
+ png/track1_4900.png/png
+ png/History_Panels2_4900.png/png
+                                 WARNING: rel_run_E_err        4901    1.5920900604789229D-01
+                                 WARNING: rel_run_E_err        4902    1.5907030809919495D-01
+                                 WARNING: rel_run_E_err        4903    1.5893398074919260D-01
+                                 WARNING: rel_run_E_err        4904    1.5879867477420112D-01
+                                 WARNING: rel_run_E_err        4905    1.5866524708654572D-01
+                                 WARNING: rel_run_E_err        4906    1.5853280383062357D-01
+                                 WARNING: rel_run_E_err        4907    1.5840207194770081D-01
+                                 WARNING: rel_run_E_err        4908    1.5827353580119610D-01
+                                 WARNING: rel_run_E_err        4909    1.5814551318176159D-01
+       4910   8.004558  3.631E+04   2.102148   2.462934   0.472466   0.004645   0.000000   0.000000   0.299858   0.005943  13.315541   1772     85
+   4.371272   5.849803  -0.361145   2.034907   1.085286 -11.076697   0.467820   0.000000   0.643268   0.019428   0.146995   4.298855      5      1
+ 1.4324E+10  22.191975   2.471160   4.834550   4.227807  -8.545632   0.357347   0.335895   0.016876  1.000E+00  8.471E-01  0.000E+00          dH/H
+                               rel_E_err       -0.0001419475714708
+                       log_rel_run_E_err       -0.8012935379889548
+
+                                 WARNING: rel_run_E_err        4910    1.5801796408370788D-01
+ WARNING: do not have any output specified for profiles.
+save photos/x910 for model 4910
+                                 WARNING: rel_run_E_err        4911    1.5789146625056477D-01
+                                 WARNING: rel_run_E_err        4912    1.5776604531161800D-01
+                                 WARNING: rel_run_E_err        4913    1.5764193025147238D-01
+                                 WARNING: rel_run_E_err        4914    1.5751826320155699D-01
+                                 WARNING: rel_run_E_err        4915    1.5739613007014192D-01
+                                 WARNING: rel_run_E_err        4916    1.5727501995977097D-01
+                                 WARNING: rel_run_E_err        4917    1.5715445407389883D-01
+                                 WARNING: rel_run_E_err        4918    1.5703421857878408D-01
+                                 WARNING: rel_run_E_err        4919    1.5691505090185731D-01
+       4920   7.999558  3.906E+04   2.125582   2.471361   0.472464   0.004188   0.000000   0.000000   0.299858   0.005327  13.734664   1763     85
+   4.318638   5.863536  -0.420191   2.031751   1.105678 -11.100054   0.468276   0.000000   0.643268   0.019428   0.141474   4.394705      5      1
+ 1.4325E+10  22.212842   2.479848   4.952639   4.323357  -8.491546   0.361077   0.335895   0.016876  1.000E+00  8.532E-01  0.000E+00          dH/H
+                               rel_E_err       -0.0001237607173639
+                       log_rel_run_E_err       -0.8046640505150093
+
+                                 WARNING: rel_run_E_err        4920    1.5679635028441666D-01
+ WARNING: do not have any output specified for profiles.
+save photos/x920 for model 4920
+                                 WARNING: rel_run_E_err        4921    1.5667883172511746D-01
+                                 WARNING: rel_run_E_err        4922    1.5656229898473872D-01
+                                 WARNING: rel_run_E_err        4923    1.5644634321880219D-01
+                                 WARNING: rel_run_E_err        4924    1.5633009322773120D-01
+                                 WARNING: rel_run_E_err        4925    1.5621452806278452D-01
+                                 WARNING: rel_run_E_err        4926    1.5609958703005306D-01
+                                 WARNING: rel_run_E_err        4927    1.5598505136181406D-01
+                                 WARNING: rel_run_E_err        4928    1.5587103613432091D-01
+                                 WARNING: rel_run_E_err        4929    1.5575653079058924D-01
+       4930   7.994890  4.204E+04   2.133465   2.471829   0.472463   0.003764   0.000000   0.000000   0.299858   0.004752  14.132288   1781     85
+   4.284717   5.876109  -0.483793   2.026325   1.114551 -11.157452   0.468699   0.000000   0.643268   0.019428   0.136573   4.485272      5      1
+ 1.4325E+10  22.231961   2.480688   5.079842   4.436601  -8.410347   0.364976   0.335895   0.016876  1.000E+00  8.587E-01  0.000E+00          dH/H
+                               rel_E_err       -0.0001118941502414
+                       log_rel_run_E_err       -0.8078744659923687
+
+                                 WARNING: rel_run_E_err        4930    1.5564154527337704D-01
+ WARNING: do not have any output specified for profiles.
+save photos/x930 for model 4930
+                                 WARNING: rel_run_E_err        4931    1.5552762926735120D-01
+                                 WARNING: rel_run_E_err        4932    1.5541327649427863D-01
+                                 WARNING: rel_run_E_err        4933    1.5529905387948767D-01
+                                 WARNING: rel_run_E_err        4934    1.5518565401745299D-01
+                                 WARNING: rel_run_E_err        4935    1.5507232483236338D-01
+                                 WARNING: rel_run_E_err        4936    1.5495823592321070D-01
+                                 WARNING: rel_run_E_err        4937    1.5484445006495903D-01
+                                 WARNING: rel_run_E_err        4938    1.5472926329374270D-01
+                                 WARNING: rel_run_E_err        4939    1.5461474164015210D-01
+       4940   7.990383  4.526E+04   2.127876   2.464712   0.472461   0.003358   0.000000   0.000000   0.299858   0.004212  14.523551   1790     85
+   4.259773   5.888101  -0.551071   2.018021   1.113625 -11.245821   0.469103   0.000000   0.643268   0.019428   0.132053   4.573974      6      1
+ 1.4325E+10  22.250210   2.474128   5.214398   4.568251  -8.323358   0.368497   0.335895   0.016876  1.000E+00  8.637E-01  0.000E+00          dH/H
+                               rel_E_err       -0.0001022199982288
+                       log_rel_run_E_err       -0.8110707795723717
+
+                                 WARNING: rel_run_E_err        4940    1.5450026206898307D-01
+ WARNING: do not have any output specified for profiles.
+save photos/x940 for model 4940
+                                 WARNING: rel_run_E_err        4941    1.5438577150248078D-01
+                                 WARNING: rel_run_E_err        4942    1.5427112926703185D-01
+                                 WARNING: rel_run_E_err        4943    1.5415584138915855D-01
+                                 WARNING: rel_run_E_err        4944    1.5404030044444628D-01
+                                 WARNING: rel_run_E_err        4945    1.5390147179191321D-01
+                                 WARNING: rel_run_E_err        4946    1.5373446521892775D-01
+                                 WARNING: rel_run_E_err        4947    1.5359651945755506D-01
+                                 WARNING: rel_run_E_err        4948    1.5347190576480457D-01
+                                 WARNING: rel_run_E_err        4949    1.5335187376754164D-01
+       4950   7.985529  4.897E+04   2.107727   2.448480   0.472461   0.002944   0.000000   0.000000   0.299858   0.003661  14.954065   1810     85
+   4.248239   5.900906  -0.627246   2.004907   1.102798 -11.374168   0.469516   0.000000   0.643268   0.019428   0.127416   4.671064      5      1
+ 1.4325E+10  22.269710   2.458754   5.366747   4.718767  -8.192073   0.371494   0.335895   0.016876  1.000E+00  8.689E-01  0.000E+00          dH/H
+                               rel_E_err   -9.5088386054008932D-05
+                       log_rel_run_E_err       -0.8146469397303415
+
+                                 WARNING: rel_run_E_err        4950    1.5323326673228166D-01
+ WARNING: do not have any output specified for profiles.
+save photos/x950 for model 4950
+                                 WARNING: rel_run_E_err        4951    1.5311488237400889D-01
+                                 WARNING: rel_run_E_err        4952    1.5299660576602175D-01
+                                 WARNING: rel_run_E_err        4953    1.5287786015923180D-01
+                                 WARNING: rel_run_E_err        4954    1.5275915330291673D-01
+                                 WARNING: rel_run_E_err        4955    1.5261563371903064D-01
+                                 WARNING: rel_run_E_err        4956    1.5244236541426909D-01
+                                 WARNING: rel_run_E_err        4957    1.5229749583814631D-01
+                                 WARNING: rel_run_E_err        4958    1.5216495477050590D-01
+                                 WARNING: rel_run_E_err        4959    1.5203819526951243D-01
+       4960   7.980768  5.277E+04   2.074392   2.423355   0.472460   0.002572   0.000000   0.000000   0.299858   0.003161  15.390251   1798     85
+   4.242851   5.913566  -0.704206   1.985985   1.083457 -11.536730   0.469888   0.000000   0.643268   0.019428   0.123082   4.768667      6      1
+ 1.4325E+10  22.289009   2.434767   5.520667   4.874524  -8.070645   0.375008   0.335895   0.016876  1.000E+00  8.738E-01  0.000E+00          dH/H
+                               rel_E_err   -8.8263771715680689D-05
+                       log_rel_run_E_err       -0.8184042648283413
+
+                                 WARNING: rel_run_E_err        4960    1.5191327802926358D-01
+ WARNING: do not have any output specified for profiles.
+save photos/x960 for model 4960
+                                 WARNING: rel_run_E_err        4961    1.5178812553767473D-01
+                                 WARNING: rel_run_E_err        4962    1.5166233078449465D-01
+                                 WARNING: rel_run_E_err        4963    1.5150886348356038D-01
+                                 WARNING: rel_run_E_err        4964    1.5132328355548968D-01
+                                 WARNING: rel_run_E_err        4965    1.5116882398843634D-01
+                                 WARNING: rel_run_E_err        4966    1.5102857916904758D-01
+                                 WARNING: rel_run_E_err        4967    1.5089416103029638D-01
+                                 WARNING: rel_run_E_err        4968    1.5076206076044590D-01
+                                 WARNING: rel_run_E_err        4969    1.5062825976385180D-01
+       4970   7.975986  5.662E+04   2.029498   2.388992   0.472459   0.002224   0.000000   0.000000   0.299858   0.002706  15.844595   1799     85
+   4.237282   5.926469  -0.781517   1.958707   1.057617 -11.732869   0.470236   0.000000   0.643268   0.019428   0.118970   4.869446      6      1
+ 1.4325E+10  22.308696   2.402258   5.675288   5.024889  -7.930442   0.378096   0.335895   0.016876  1.000E+00  8.783E-01  0.000E+00          dH/H
+                               rel_E_err   -8.0295663311722541D-05
+                       log_rel_run_E_err       -0.8224834731172466
+
+                                 WARNING: rel_run_E_err        4970    1.5049307871825443D-01
+ WARNING: do not have any output specified for profiles.
+save photos/x970 for model 4970
+                                 WARNING: rel_run_E_err        4971    1.5032785134073653D-01
+                                 WARNING: rel_run_E_err        4972    1.5012729443278397D-01
+                                 WARNING: rel_run_E_err        4973    1.4995774137269027D-01
+                                 WARNING: rel_run_E_err        4974    1.4980246518169313D-01
+                                 WARNING: rel_run_E_err        4975    1.4965446422163622D-01
+                                 WARNING: rel_run_E_err        4976    1.4950896355585450D-01
+                                 WARNING: rel_run_E_err        4977    1.4936451639236120D-01
+                                 WARNING: rel_run_E_err        4978    1.4921965486510644D-01
+                                 WARNING: rel_run_E_err        4979    1.4904289556046560D-01
+       4980   7.970901  6.069E+04   1.980944   2.345317   0.472459   0.001886   0.000000   0.000000   0.299858   0.002271  16.353185   1796     85
+   4.396354   5.940696  -0.862216   1.916126   1.031507 -11.958880   0.470573   0.000000   0.643268   0.019428   0.114898   4.980889      8      1
+ 1.4326E+10  22.330427   2.361422   5.836685   5.180461  -7.804431   0.380861   0.335895   0.016876  1.000E+00  8.828E-01  0.000E+00          dH/H
+                               rel_E_err       -0.0001039695708016
+                       log_rel_run_E_err       -0.8273249022868354
+
+                                 WARNING: rel_run_E_err        4980    1.4882472807826022D-01
+ WARNING: do not have any output specified for profiles.
+save photos/x980 for model 4980
+                                 WARNING: rel_run_E_err        4981    1.4863645719081048D-01
+                                 WARNING: rel_run_E_err        4982    1.4845918861485125D-01
+                                 WARNING: rel_run_E_err        4983    1.4828495234189504D-01
+                                 WARNING: rel_run_E_err        4984    1.4810888069441730D-01
+                                 WARNING: rel_run_E_err        4985    1.4792701721525522D-01
+                                 WARNING: rel_run_E_err        4986    1.4773747559605083D-01
+                                 WARNING: rel_run_E_err        4987    1.4753847674325699D-01
+                                 WARNING: rel_run_E_err        4988    1.4732730992915613D-01
+                                 WARNING: rel_run_E_err        4989    1.4710143307445844D-01
+       4990   7.967259  6.507E+04   2.030304   2.317287   0.472459   0.001605   0.000000   0.000000   0.299858   0.001906  16.825449   1796     85
+   4.203189   5.955124  -0.929824   1.799939   1.068195 -12.117119   0.470854   0.000000   0.643268   0.019428   0.111839   5.078762      5      1
+ 1.4326E+10  22.352557   2.347307   5.971901   5.320897  -7.679754   0.383417   0.335895   0.016876  1.000E+00  8.863E-01  0.000E+00          dH/H
+                               rel_E_err   -5.5441462888195032D-05
+                       log_rel_run_E_err       -0.8331039104092909
+
+                                 WARNING: rel_run_E_err        4990    1.4685748606251928D-01
+ WARNING: do not have any output specified for profiles.
+save photos/x990 for model 4990
+                                 WARNING: rel_run_E_err        4991    1.4659151664185416D-01
+                                 WARNING: rel_run_E_err        4992    1.4630495521334411D-01
+                                 WARNING: rel_run_E_err        4993    1.4600539640479501D-01
+                                 WARNING: rel_run_E_err        4994    1.4570199915333168D-01
+                                 WARNING: rel_run_E_err        4995    1.4540404562995307D-01
+                                 WARNING: rel_run_E_err        4996    1.4511804958876026D-01
+                                 WARNING: rel_run_E_err        4997    1.4484776521368448D-01
+                                 WARNING: rel_run_E_err        4998    1.4459313462355186D-01
+                                 WARNING: rel_run_E_err        4999    1.4435425864038043D-01
+
+__________________________________________________________________________________________________________________________________________________
+
+       step    lg_Tcntr    Teff     lg_LH       lg_Lnuc     Mass       H_rich     H_cntr     N_cntr     Y_surf     X_avg     eta_cntr  zones retry
+   lg_dt_yr    lg_Dcntr    lg_R     lg_L3a      lg_Lneu     lg_Mdot    He_core    He_cntr    O_cntr     Z_surf     Y_avg     gam_cntr  iters bckup
+     age_yr    lg_Pcntr    lg_L     lg_gsurf    lg_Psurf    lg_Dsurf   C_core     C_cntr     Ne_cntr    Z_cntr     Z_avg     v_div_cs     dt_limit
+__________________________________________________________________________________________________________________________________________________
+
+       5000   7.968279  7.270E+04   2.358595   2.443115   0.472459   0.001302   0.000000   0.000000   0.299858   0.001507  17.154917   1772     85
+   3.866526   5.970851  -0.954907   1.378143   1.308591 -11.614009   0.471157   0.000000   0.643268   0.019428   0.110945   5.128389      7      1
+ 1.4326E+10  22.376931   2.489795   6.022067   5.462915  -7.603850   0.385083   0.335895   0.016876  1.000E+00  8.875E-01  0.000E+00          dH/H
+                               rel_E_err   -2.1071380141627363D-05
+                       log_rel_run_E_err       -0.8412474044948061
+
+                                 WARNING: rel_run_E_err        5000    1.4412940557703005D-01
+ WARNING: do not have any output specified for profiles.
+save photos/5000 for model 5000
+ png/track1_5000.png/png
+ png/History_Panels2_5000.png/png
+                                 WARNING: rel_run_E_err        5001    1.4391551915692455D-01
+                                 WARNING: rel_run_E_err        5002    1.4370967396700091D-01
+                                 WARNING: rel_run_E_err        5003    1.4350960249297562D-01
+                                 WARNING: rel_run_E_err        5004    1.4331454953103295D-01
+                                 WARNING: rel_run_E_err        5005    1.4312298978878707D-01
+                                 WARNING: rel_run_E_err        5006    1.4293290382288457D-01
+                                 WARNING: rel_run_E_err        5007    1.4270684619645066D-01
+                                 WARNING: rel_run_E_err        5008    1.4243992348256135D-01
+                                 WARNING: rel_run_E_err        5009    1.4221411783068261D-01
+       5010   7.969781  7.826E+04   2.280912   2.340794   0.472459   0.001040   0.000000   0.000000   0.299858   0.001182  17.380143   1782     85
+   3.840428   5.982824  -1.064612   1.026588   1.259032 -11.953828   0.471419   0.000000   0.643268   0.019428   0.110924   5.157861      8      1
+ 1.4326E+10  22.395511   2.398342   6.241478   5.639097  -7.419662   0.385691   0.335895   0.016876  1.000E+00  8.879E-01  0.000E+00          dH/H
+                               rel_E_err   -1.4153829793939778D-05
+                       log_rel_run_E_err       -0.8476965597229091
+
+                                 WARNING: rel_run_E_err        5010    1.4200493594622599D-01
+ WARNING: do not have any output specified for profiles.
+save photos/x010 for model 5010
+                                 WARNING: rel_run_E_err        5011    1.4180134783809348D-01
+                                 WARNING: rel_run_E_err        5012    1.4156151244645807D-01
+                                 WARNING: rel_run_E_err        5013    1.4127980504623233D-01
+                                 WARNING: rel_run_E_err        5014    1.4103270992721173D-01
+                                 WARNING: rel_run_E_err        5015    1.4079620689066039D-01
+                                 WARNING: rel_run_E_err        5016    1.4051895267167561D-01
+                                 WARNING: rel_run_E_err        5017    1.4019631905545993D-01
+                                 WARNING: rel_run_E_err        5018    1.3990957254327399D-01
+                                 WARNING: rel_run_E_err        5019    1.3957590539687276D-01
+       5020   7.970677  7.875E+04   1.932220   1.995091   0.472459   0.000817   0.000000   0.000000   0.299858   0.000910  17.744639   1737     85
+   4.182798   5.999396  -1.222649   0.520026   1.057610 -13.189080   0.471642   0.000000   0.643268   0.019428   0.110963   5.213114     10      1
+ 1.4326E+10  22.421158   2.093133   6.557551   5.798156  -7.206364   0.386336   0.335895   0.016876  1.000E+00  8.881E-01  0.000E+00          dH/H
+                               rel_E_err   -2.0174085672523756D-05
+                       log_rel_run_E_err       -0.8563682170837194
+
+                                 WARNING: rel_run_E_err        5020    1.3919761139177911D-01
+ WARNING: do not have any output specified for profiles.
+save photos/x020 for model 5020
+                                 WARNING: rel_run_E_err        5021    1.3886627291358991D-01
+                                 WARNING: rel_run_E_err        5022    1.3848394874890624D-01
+                                 WARNING: rel_run_E_err        5023    1.3805391075397241D-01
+                                 WARNING: rel_run_E_err        5024    1.3767617613171379D-01
+                                 WARNING: rel_run_E_err        5025    1.3724357386916544D-01
+                                 WARNING: rel_run_E_err        5026    1.3675085212775323D-01
+                                 WARNING: rel_run_E_err        5027    1.3631962716730781D-01
+                                 WARNING: rel_run_E_err        5028    1.3583029476763414D-01
+                                 WARNING: rel_run_E_err        5029    1.3527766475791733D-01
+       5030   7.966788  7.259E+04   1.396650   1.458259   0.472459   0.000641   0.000000   0.000000   0.299858   0.000701  18.628576   1691     85
+   4.476476   6.028223  -1.376133  -0.410694   0.887727 -14.934890   0.471817   0.000000   0.643268   0.019428   0.111019   5.377687      9      1
+ 1.4326E+10  22.465485   1.644835   6.864520   5.844117  -6.941603   0.387471   0.335895   0.016876  1.000E+00  8.883E-01  0.000E+00          dH/H
+                               rel_E_err   -2.5597844194279456D-05
+                       log_rel_run_E_err       -0.8703441766991152
+
+                                 WARNING: rel_run_E_err        5030    1.3478942582148701D-01
+ WARNING: do not have any output specified for profiles.
+save photos/x030 for model 5030
+                                 WARNING: rel_run_E_err        5031    1.3423920563017830D-01
+                                 WARNING: rel_run_E_err        5032    1.3362391139714552D-01
+                                 WARNING: rel_run_E_err        5033    1.3294132953416204D-01
+                                 WARNING: rel_run_E_err        5034    1.3234884975832040D-01
+                                 WARNING: rel_run_E_err        5035    1.3169136378563498D-01
+                                 WARNING: rel_run_E_err        5036    1.3096844221190693D-01
+                                 WARNING: rel_run_E_err        5037    1.3018234033883491D-01
+                                 WARNING: rel_run_E_err        5038    1.2933797739960898D-01
+                                 WARNING: rel_run_E_err        5039    1.2844390619679411D-01
+       5040   7.931829  6.080E+04   0.683567   0.717254   0.472459   0.000503   0.000000   0.000000   0.299858   0.000545  21.886388   1566     85
+   5.142845   6.087002  -1.524676  -2.289234   0.724615 -17.233854   0.471956   0.000000   0.643268   0.019428   0.111103   6.097441      6      1
+ 1.4327E+10  22.554781   1.039701   7.161605   5.750147  -6.560643   0.388036   0.335895   0.016876  1.000E+00  8.884E-01  0.000E+00        lgTeff
+                               rel_E_err       -0.0001773100264058
+                       log_rel_run_E_err       -0.8943992456738444
+
+                                 WARNING: rel_run_E_err        5040    1.2752659214673912D-01
+ WARNING: do not have any output specified for profiles.
+save photos/x040 for model 5040
+                                 WARNING: rel_run_E_err        5041    1.2674926412757664D-01
+                                 WARNING: rel_run_E_err        5042    1.2605629893474202D-01
+                                 WARNING: rel_run_E_err        5043    1.2532749117676428D-01
+                                 WARNING: rel_run_E_err        5044    1.2457511443487942D-01
+                                 WARNING: rel_run_E_err        5045    1.2394993326239021D-01
+                                 WARNING: rel_run_E_err        5046    1.2339465002706533D-01
+                                 WARNING: rel_run_E_err        5047    1.2281536755896416D-01
+                                 WARNING: rel_run_E_err        5048    1.2222271898897204D-01
+                                 WARNING: rel_run_E_err        5049    1.2173849502938405D-01
+       5050   7.853547  4.758E+04  -0.115352  -0.109995   0.472459   0.000438   0.000000   0.000000   0.299858   0.000477  28.508987   1387     85
+   5.294223   6.148733  -1.628493  -5.433618   0.342960 -19.780753   0.472021   0.000000   0.643268   0.019428   0.111160   7.656084      5      1
+ 1.4329E+10  22.647631   0.406330   7.369239   5.544753  -6.194061   0.388036   0.335895   0.016876  1.000E+00  8.884E-01  0.000E+00        lgTeff
+                               rel_E_err   -8.6164303368220814D-05
+                       log_rel_run_E_err       -0.9160957013716482
+
+                                 WARNING: rel_run_E_err        5050    1.2131214968865910D-01
+ WARNING: do not have any output specified for profiles.
+save photos/x050 for model 5050
+                                 WARNING: rel_run_E_err        5051    1.2086762467118085D-01
+                                 WARNING: rel_run_E_err        5052    1.2041271603090296D-01
+                                 WARNING: rel_run_E_err        5053    1.2004018237789864D-01
+                                 WARNING: rel_run_E_err        5054    1.1971041961976983D-01
+                                 WARNING: rel_run_E_err        5055    1.1936622534888937D-01
+                                 WARNING: rel_run_E_err        5056    1.1901262061278210D-01
+                                 WARNING: rel_run_E_err        5057    1.1871942025762244D-01
+                                 WARNING: rel_run_E_err        5058    1.1845729587321527D-01
+                                 WARNING: rel_run_E_err        5059    1.1818363055727002D-01
+       5060   7.774285  3.720E+04  -0.847973  -0.847820   0.472459   0.000420   0.000000   0.000000   0.299858   0.000457  35.956806   1182     85
+   5.650282   6.185424  -1.689145  -8.542439  -0.158804 -21.861352   0.472039   0.000000   0.643268   0.019428   0.111180   9.451454      5      1
+ 1.4332E+10  22.702472  -0.142747   7.490543   5.317190  -5.943184   0.388057   0.335895   0.016876  1.000E+00  8.884E-01  0.000E+00        lgTeff
+                               rel_E_err   -7.5970410896399702D-05
+                       log_rel_run_E_err       -0.9284775591062805
+
+                                 WARNING: rel_run_E_err        5060    1.1790234442486354D-01
+ WARNING: do not have any output specified for profiles.
+save photos/x060 for model 5060
+                                 WARNING: rel_run_E_err        5061    1.1766628252326768D-01
+                                 WARNING: rel_run_E_err        5062    1.1742216046238933D-01
+                                 WARNING: rel_run_E_err        5063    1.1717354726100067D-01
+                                 WARNING: rel_run_E_err        5064    1.1696928682927062D-01
+                                 WARNING: rel_run_E_err        5065    1.1675904948776809D-01
+                                 WARNING: rel_run_E_err        5066    1.1654702095805021D-01
+                                 WARNING: rel_run_E_err        5067    1.1637638027847795D-01
+                                 WARNING: rel_run_E_err        5068    1.1620635470172032D-01
+                                 WARNING: rel_run_E_err        5069    1.1604577558559608D-01
+       5070   7.689309  2.899E+04  -1.418961  -1.418960   0.472459   0.000414   0.000000   0.000000   0.299858   0.000448  45.110662   1113     85
+   5.939214   6.208550  -1.730936 -13.066498  -0.778905 -23.858536   0.472045   0.000000   0.643268   0.019428   0.111189  11.699948      4      1
+ 1.4339E+10  22.736591  -0.659444   7.574125   5.070333  -5.750674   0.388057   0.335895   0.016876  1.000E+00  8.884E-01  0.000E+00        lgTeff
+                               rel_E_err   -6.6993360570835952D-05
+                       log_rel_run_E_err       -0.9358134626826747
+
+                                 WARNING: rel_run_E_err        5070    1.1592751788453376D-01
+ WARNING: do not have any output specified for profiles.
+save photos/x070 for model 5070
+                                 WARNING: rel_run_E_err        5071    1.1582895211052209D-01
+                                 WARNING: rel_run_E_err        5072    1.1577027523091797D-01
+                                 WARNING: rel_run_E_err        5073    1.1576398591766354D-01
+                                 WARNING: rel_run_E_err        5074    1.1582718394830739D-01
+                                 WARNING: rel_run_E_err        5075    1.1599551744729747D-01
+                                 WARNING: rel_run_E_err        5076    1.1621802382783818D-01
+                                 WARNING: rel_run_E_err        5077    1.1656967902715853D-01
+
+stop because log_surface_luminosity <= log_L_lower_limit
+   -0.1035004805E+01   -0.1000000000E+01
+
+       5078   7.606848  2.400E+04  -1.690367  -1.690367   0.472459   0.000414   0.000000   0.000000   0.299858   0.000442  55.571046   1113     85
+   6.336115   6.222413  -1.754706 -18.147754  -1.380599 -25.269941   0.472045   0.000000   0.643268   0.019428   0.111195  14.297691      4      1
+ 1.4351E+10  22.756132  -1.035005   7.621664   4.498107  -5.547089   0.388057   0.335895   0.016876  1.000E+00  8.884E-01  0.000E+00      lgT_cntr
+                               rel_E_err       -0.0007487444306944
+                       log_rel_run_E_err       -0.9314901840813672
+
+                                 WARNING: rel_run_E_err        5078    1.1708730660800663D-01
+ WARNING: do not have any output specified for profiles.
+save photos/x078 for model 5078
+ saved to final.mod
+termination code: log_L_lower_limit
+
+        runtime (minutes), retries, backups, steps       10.85        85         1      5078
+__________________________________________________________________________________________________________________________________________________
+
+       step    lg_Tcntr    Teff     lg_LH       lg_Lnuc     Mass       H_rich     H_cntr     N_cntr     Y_surf     X_avg     eta_cntr  zones retry
+   lg_dt_yr    lg_Dcntr    lg_R     lg_L3a      lg_Lneu     lg_Mdot    He_core    He_cntr    O_cntr     Z_surf     Y_avg     gam_cntr  iters bckup
+     age_yr    lg_Pcntr    lg_L     lg_gsurf    lg_Psurf    lg_Dsurf   C_core     C_cntr     Ne_cntr    Z_cntr     Z_avg     v_div_cs     dt_limit
+__________________________________________________________________________________________________________________________________________________
+
+       5078   7.606848  2.400E+04  -1.690367  -1.690367   0.472459   0.000414   0.000000   0.000000   0.299858   0.000442  55.571046   1113     85
+   6.336115   6.222413  -1.754706 -18.147754  -1.380599 -25.269941   0.472045   0.000000   0.643268   0.019428   0.111195  14.297691      4      1
+ 1.4351E+10  22.756132  -1.035005   7.621664   4.498107  -5.547089   0.388057   0.335895   0.016876  1.000E+00  8.884E-01  0.000E+00      lgT_cntr
+                               rel_E_err       -0.0007487444306944
+                       log_rel_run_E_err       -0.9314901840813672
+
+DATE: 2019-08-22
+TIME: 23:40:57

@@ -1,3 +1,11 @@
+# MESA Binaries
+docs/
+photos/
+png/
+tutorials/
+restart_photo
+star
+
 # Prerequisites
 *.d
 
